@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "BVM Ventilator"
 Date ""
 Rev "v1.0.0"
@@ -39,4 +39,21 @@ F19 "MISO" I L 4950 4300 50
 F20 "MOSI" O L 4950 4400 50 
 F21 "SCK" O L 4950 4500 50 
 $EndSheet
+$Sheet
+S 2900 3750 850  850 
+U 5E8A6686
+F0 "Stepper Driver" 50
+F1 "STEPPER_DRIVER.sch" 50
+$EndSheet
+$Comp
+L Converter_ACDC:IRM-05-3.3 PS?
+U 1 1 5E8AC19A
+P 3300 1650
+F 0 "PS?" H 3300 2017 50  0000 C CNN
+F 1 "IRM-05-3.3" H 3300 1926 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT" H 3300 1300 50  0001 C CNN
+F 3 "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF" H 3300 1250 50  0001 C CNN
+	1    3300 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
