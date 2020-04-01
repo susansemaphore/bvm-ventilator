@@ -61,9 +61,11 @@ F 3 "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF" H 3300 1250 50 
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 7300 3450 850  800 
+S 7300 3450 550  300 
 U 5E866D57
 F0 "Loadcell Amp" 50
 F1 "HX711_LOADCELL_AMP.sch" 50
+F2 "DOUT" O L 7300 3550 50 
+F3 "SCK" I L 7300 3650 50 
 $EndSheet
 $EndSCHEMATC
