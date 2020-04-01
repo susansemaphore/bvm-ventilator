@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "BVM Ventilator"
 Date ""
 Rev "v1.0.0"
@@ -60,4 +60,10 @@ F 3 "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF" H 3300 1250 50 
 	1    3300 1650
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 7300 3450 850  800 
+U 5E866D57
+F0 "Loadcell Amp" 50
+F1 "HX711_LOADCELL_AMP.sch" 50
+$EndSheet
 $EndSCHEMATC
