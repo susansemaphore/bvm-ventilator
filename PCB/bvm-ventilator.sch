@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 8
 Title "BVM Ventilator"
 Date ""
 Rev "v1.0.0"
@@ -63,5 +63,24 @@ U 5E8EB699
 F0 "Alarm buzzer" 50
 F1 "BUZZER.sch" 50
 F2 "ENABLE" I R 1550 6750 50 
+$EndSheet
+$Sheet
+S 1000 4100 550  200 
+U 5E8F0FFD
+F0 "POT" 50
+F1 "POTENTIOMETER.sch" 50
+F2 "OUTPUT" O R 1550 4200 50 
+$EndSheet
+$Sheet
+S 1700 2850 650  300 
+U 5E8F3A13
+F0 "OLED" 50
+F1 "SSD1306_OLED.sch" 50
+$EndSheet
+$Sheet
+S 1600 3400 750  400 
+U 5E8F3A08
+F0 "LCD" 50
+F1 "HD44780_LCD.sch" 50
 $EndSheet
 $EndSCHEMATC
