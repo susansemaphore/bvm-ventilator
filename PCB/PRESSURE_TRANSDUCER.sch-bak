@@ -18,9 +18,9 @@ L custom:MPRxxxxxxxxxxxxxx U?
 U 1 1 5E870004
 P 5950 4150
 F 0 "U?" H 5600 4600 50  0000 C CNN
-F 1 "MPRLS0006KG00001C" H 6400 4600 50  0000 C CNN
+F 1 "MPRLF0006KG00001C" H 6400 4600 50  0000 C CNN
 F 2 "" H 5950 4150 50  0001 C CNN
-F 3 "" H 5950 4150 50  0001 C CNN
+F 3 "https://sensing.honeywell.com/honeywell-sensing-micropressure-board-mount-pressure-mpr-series-datasheet-32332628.pdf" H 5950 4150 50  0001 C CNN
 	1    5950 4150
 	1    0    0    -1  
 $EndComp

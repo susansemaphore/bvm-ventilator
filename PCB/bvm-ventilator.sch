@@ -110,4 +110,10 @@ F0 "Button" 50
 F1 "BUTTON.sch" 50
 F2 "OUT" O R 1550 1450 50 
 $EndSheet
+$Sheet
+S 3600 1900 1150 1000
+U 5E880E11
+F0 "Power Supply" 50
+F1 "POWER_SUPPLY.sch" 50
+$EndSheet
 $EndSCHEMATC
