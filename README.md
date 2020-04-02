@@ -43,3 +43,4 @@ Open-source Bag Valve Mask (BVM) based ventilator. Designed to be simple, low co
 * [E-Vent - MIT](https://e-vent.mit.edu/)
 * [COVID-19 Project: Rapidly Manufactured Medical Equipment - OfferZen](https://www.offerzen.com/blog/covid-19-project-rapidly-manufactured-medical-equipment)
 * [ApolloBVM by Take a Breather - Rice University](https://news.rice.edu/2020/03/27/ventilator-costing-less-than-300-developed-by-rice-university-and-metric-technologies/)
+* [Ambovent](https://github.com/AmboVent/AmboVent)
