@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "BVM Ventilator"
 Date ""
 Rev "v1.0.0"
@@ -103,4 +103,11 @@ F5 "SDA" I R 1550 2100 50
 $EndSheet
 NoConn ~ 1550 1850
 NoConn ~ 1550 1950
+$Sheet
+S 1000 1350 550  200 
+U 5E8776DF
+F0 "Button" 50
+F1 "BUTTON.sch" 50
+F2 "OUT" O R 1550 1450 50 
+$EndSheet
 $EndSCHEMATC
