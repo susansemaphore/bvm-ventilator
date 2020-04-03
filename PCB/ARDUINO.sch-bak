@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 13
 Title ""
 Date ""
 Rev ""
@@ -46,7 +46,7 @@ P 4450 3950
 AR Path="/5E88BF03" Ref="Y?"  Part="1" 
 AR Path="/5E880AC6/5E88BF03" Ref="Y?"  Part="1" 
 F 0 "Y?" V 4404 4081 50  0000 L CNN
-F 1 "16MHz" V 4495 4081 50  0000 L CNN
+F 1 "8MHz" V 4495 4081 50  0000 L CNN
 F 2 "" H 4450 3950 50  0001 C CNN
 F 3 "~" H 4450 3950 50  0001 C CNN
 	1    4450 3950

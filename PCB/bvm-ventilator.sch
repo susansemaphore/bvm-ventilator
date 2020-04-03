@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 13
 Title "BVM Ventilator"
 Date ""
 Rev "v1.0.0"
@@ -125,5 +125,14 @@ F2 "V_MOTOR" I L 1800 7200 50
 F3 "STEP" I R 2650 7400 50 
 F4 "DIR" I R 2650 7500 50 
 F5 "~SLEEP" I R 2650 7200 50 
+$EndSheet
+$Sheet
+S 1000 850  550  300 
+U 5E87171F
+F0 "RTC" 50
+F1 "RTC.sch" 50
+F2 "SDA" B R 1550 950 50 
+F3 "SCL" I R 1550 1050 50 
+F4 "~INT" O L 1000 950 50 
 $EndSheet
 $EndSCHEMATC
