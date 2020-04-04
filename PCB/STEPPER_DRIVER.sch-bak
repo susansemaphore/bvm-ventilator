@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 14
+Sheet 3 17
 Title ""
 Date ""
 Rev ""
@@ -269,21 +269,8 @@ Text HLabel 5300 4050 0    50   Input ~ 0
 STEP
 Text HLabel 5300 4150 0    50   Input ~ 0
 DIR
-Text HLabel 5300 3750 0    50   Input ~ 0
-~SLEEP
-$Comp
-L power:GND #PWR?
-U 1 1 5E84CEC8
-P 5250 3950
-AR Path="/5E8A6686/5E84CEC8" Ref="#PWR?"  Part="1" 
-AR Path="/5E8813FF/5E84CEC8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5250 3700 50  0001 C CNN
-F 1 "GND" V 5255 3822 50  0000 R CNN
-F 2 "" H 5250 3950 50  0001 C CNN
-F 3 "" H 5250 3950 50  0001 C CNN
-	1    5250 3950
-	0    1    1    0   
-$EndComp
+Text HLabel 5300 3950 0    50   Input ~ 0
+~ENABLE
 $Comp
 L power:GND #PWR?
 U 1 1 5E84D212
@@ -299,8 +286,6 @@ F 3 "" H 5250 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 3650 5300 3650
-Wire Wire Line
-	5250 3950 5300 3950
 $Comp
 L Device:C_Small C?
 U 1 1 5E8548E0
@@ -438,4 +423,19 @@ F 3 "" H 5250 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 2350 5250 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5E8CF9B2
+P 5250 3750
+AR Path="/5E8A6686/5E8CF9B2" Ref="#PWR?"  Part="1" 
+AR Path="/5E8813FF/5E8CF9B2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5250 3500 50  0001 C CNN
+F 1 "GND" V 5255 3622 50  0000 R CNN
+F 2 "" H 5250 3750 50  0001 C CNN
+F 3 "" H 5250 3750 50  0001 C CNN
+	1    5250 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 3750 5300 3750
 $EndSCHEMATC
