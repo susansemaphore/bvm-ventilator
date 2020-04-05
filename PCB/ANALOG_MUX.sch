@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 19
+Sheet 18 20
 Title ""
 Date ""
 Rev ""
@@ -17,6 +17,8 @@ $Comp
 L 74xx:CD74HC4067SM U?
 U 1 1 5E8B04AF
 P 5700 3950
+AR Path="/5E8B04AF" Ref="U?"  Part="1" 
+AR Path="/5E8AFDCF/5E8B04AF" Ref="U?"  Part="1" 
 F 0 "U?" H 5400 4850 50  0000 C CNN
 F 1 "CD74HC4067SM" V 5700 3950 50  0000 C CNN
 F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6750 2950 50  0001 C CIN
