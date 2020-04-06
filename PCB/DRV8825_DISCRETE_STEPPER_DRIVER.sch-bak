@@ -489,5 +489,5 @@ Text Label 3550 3100 0    50   ~ 0
 Wire Wire Line
 	3550 3100 3550 3150
 Text Notes 2150 3550 0    50   ~ 0
-Valves are for a 1A phase current
+Values are for a 1A phase current
 $EndSCHEMATC
