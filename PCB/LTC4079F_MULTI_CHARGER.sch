@@ -17,8 +17,6 @@ Text HLabel 2300 2800 0    50   Input ~ 0
 VIN
 Text HLabel 4800 2500 2    50   Output ~ 0
 VBATT
-Text HLabel 4750 3700 2    50   Output ~ 0
-~CHRG
 $Comp
 L custom:LTC4079 U?
 U 1 1 5C52E068
@@ -217,38 +215,18 @@ NoConn ~ 3900 3450
 $Comp
 L Device:R_Small R?
 U 1 1 5C53CA2E
-P 4750 3550
-F 0 "R?" H 4809 3596 50  0000 L CNN
-F 1 "10k" H 4809 3505 50  0000 L CNN
-F 2 "Resistors:0603" H 4750 3550 50  0001 C CNN
-F 3 "~" H 4750 3550 50  0001 C CNN
-F 4 "SLA Charger" H 0   0   50  0001 C CNN "Functional Block"
-F 5 "RES-0603-0004" H 0   0   50  0001 C CNN "SKU"
-F 6 "Y" H 0   0   50  0001 C CNN "Solar Module"
-	1    4750 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5C53CADE
-P 4750 3400
-F 0 "#PWR?" H 4750 3250 50  0001 C CNN
-F 1 "+3.3V" H 4765 3573 50  0000 C CNN
-F 2 "" H 4750 3400 50  0001 C CNN
-F 3 "" H 4750 3400 50  0001 C CNN
-	1    4750 3400
-	1    0    0    -1  
+P 4650 3600
+F 0 "R?" H 4709 3646 50  0000 L CNN
+F 1 "1k" H 4709 3555 50  0000 L CNN
+F 2 "Resistors:0603" H 4650 3600 50  0001 C CNN
+F 3 "~" H 4650 3600 50  0001 C CNN
+	1    4650 3600
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4750 3400 4750 3450
+	4800 3600 4750 3600
 Wire Wire Line
-	4750 3700 4750 3650
-Wire Wire Line
-	3900 3600 4100 3600
-Wire Wire Line
-	4100 3600 4100 3700
-Wire Wire Line
-	4100 3700 4750 3700
+	4500 3600 4550 3600
 Wire Wire Line
 	2300 2800 2450 2800
 Connection ~ 4350 2500
@@ -320,4 +298,19 @@ Wire Wire Line
 Wire Wire Line
 	5350 3100 5000 3100
 Connection ~ 5000 3100
+$Comp
+L Device:LED D?
+U 1 1 5E970504
+P 4350 3600
+F 0 "D?" H 4343 3438 50  0000 C CNN
+F 1 "CHRG" H 4343 3347 50  0000 C CNN
+F 2 "" H 4350 3600 50  0001 C CNN
+F 3 "~" H 4350 3600 50  0001 C CNN
+	1    4350 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3600 4200 3600
+Text Label 4800 3600 0    50   ~ 0
+VIN
 $EndSCHEMATC

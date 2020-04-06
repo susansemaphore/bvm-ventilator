@@ -36,8 +36,6 @@ Wire Wire Line
 	4100 3200 4950 3200
 Connection ~ 4950 3200
 Wire Wire Line
-	4950 3200 5300 3200
-Wire Wire Line
 	4950 3200 4950 3350
 $Comp
 L power:GND #PWR?
@@ -52,17 +50,6 @@ F 3 "" H 4950 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 3800 4950 3750
-$Comp
-L Converter_ACDC:IRM-20-15 PS?
-U 1 1 5E92C858
-P 2800 2750
-F 0 "PS?" H 2800 3075 50  0000 C CNN
-F 1 "IRM-20-15" H 2800 2984 50  0000 C CNN
-F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT" H 2800 2450 50  0001 C CNN
-F 3 "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF" H 3200 2400 50  0001 C CNN
-	1    2800 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 2650 3400 2650
 Wire Wire Line
@@ -70,8 +57,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 3200 3400 2650
 Connection ~ 3400 2650
-Wire Wire Line
-	3400 2650 5500 2650
 $Comp
 L power:GND #PWR?
 U 1 1 5E92F162
@@ -97,6 +82,33 @@ F3 "VBATT" O R 4100 3200 50
 F4 "~CHRG" O L 3450 3350 50 
 $EndSheet
 NoConn ~ 3450 3350
+Wire Wire Line
+	6100 2650 6100 3200
+Connection ~ 6100 3200
+Wire Wire Line
+	6100 3200 6200 3200
+$Comp
+L Converter_ACDC:IRM-20-15 PS?
+U 1 1 5E92C858
+P 2800 2750
+F 0 "PS?" H 2800 3075 50  0000 C CNN
+F 1 "IRM-30-15" H 2800 2984 50  0000 C CNN
+F 2 "" H 2800 2450 50  0001 C CNN
+F 3 "https://www.meanwell.com/Upload/PDF/IRM-30/IRM-30-SPEC.PDF" H 3200 2400 50  0001 C CNN
+	1    2800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3200 6100 3200
+Wire Wire Line
+	4950 3200 5300 3200
+Wire Wire Line
+	5650 2650 5500 2650
+Wire Wire Line
+	3400 2650 5500 2650
+Connection ~ 5500 2650
+Wire Wire Line
+	5500 2650 5500 2900
 $Comp
 L Device:Q_PMOS_DGS Q?
 U 1 1 5E90FAA8
@@ -108,131 +120,17 @@ F 3 "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf" H 5500 3100 50  0001
 	1    5500 3100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5500 2650 5500 2900
 $Comp
-L Device:Q_PMOS_DGS Q?
-U 1 1 5E944DF7
-P 5850 2550
-F 0 "Q?" V 6099 2550 50  0000 C CNN
-F 1 "DMP3099L" V 6190 2550 50  0000 C CNN
-F 2 "" H 6050 2650 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf" H 5850 2550 50  0001 C CNN
-	1    5850 2550
-	0    1    1    0   
+L Device:D_Schottky D?
+U 1 1 5E96E6B3
+P 5800 2650
+F 0 "D?" H 5800 2434 50  0000 C CNN
+F 1 "D_Schottky" H 5800 2525 50  0000 C CNN
+F 2 "" H 5800 2650 50  0001 C CNN
+F 3 "~" H 5800 2650 50  0001 C CNN
+	1    5800 2650
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5700 3200 6100 3200
-Wire Wire Line
-	5650 2650 5500 2650
-Connection ~ 5500 2650
-Wire Wire Line
-	6050 2650 6100 2650
-Wire Wire Line
-	6100 2650 6100 3200
-Connection ~ 6100 3200
-Wire Wire Line
-	6100 3200 6200 3200
-$Comp
-L dk_Transistors-Bipolar-BJT-Single:MMBT4401-7-F Q?
-U 1 1 5E94C42C
-P 6350 2150
-F 0 "Q?" V 6583 2150 50  0000 C CNN
-F 1 "MMBT4401-7-F" V 6674 2150 50  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 6550 2350 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30039.pdf" H 6550 2450 50  0001 L CNN
-F 4 "MMBT4401-FDICT-ND" H 6550 2550 60  0001 L CNN "Digi-Key_PN"
-F 5 "MMBT4401-7-F" H 6550 2650 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6550 2750 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 6550 2850 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds30039.pdf" H 6550 2950 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/MMBT4401-7-F/MMBT4401-FDICT-ND/775867" H 6550 3050 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.6A SMD SOT23-3" H 6550 3150 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 6550 3250 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6550 3350 60  0001 L CNN "Status"
-	1    6350 2150
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E94F620
-P 6750 2250
-F 0 "#PWR?" H 6750 2000 50  0001 C CNN
-F 1 "GND" V 6755 2122 50  0000 R CNN
-F 2 "" H 6750 2250 50  0001 C CNN
-F 3 "" H 6750 2250 50  0001 C CNN
-	1    6750 2250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6750 2250 6550 2250
-$Comp
-L Device:R_Small R?
-U 1 1 5E950336
-P 5700 2250
-F 0 "R?" V 5504 2250 50  0000 C CNN
-F 1 "R_Small" V 5595 2250 50  0000 C CNN
-F 2 "" H 5700 2250 50  0001 C CNN
-F 3 "~" H 5700 2250 50  0001 C CNN
-	1    5700 2250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5800 2250 5850 2250
-Wire Wire Line
-	5850 2350 5850 2250
-Connection ~ 5850 2250
-Wire Wire Line
-	5850 2250 6150 2250
-Wire Wire Line
-	5600 2250 5500 2250
-Wire Wire Line
-	5500 2250 5500 2650
-$Comp
-L custom:Zener_AK U?
-U 1 1 5E9517C5
-P 5950 1900
-F 0 "U?" V 6215 1900 50  0000 C CNN
-F 1 "10V" V 6124 1900 50  0000 C CNN
-F 2 "" H 5950 1900 50  0001 C CNN
-F 3 "" H 5950 1900 50  0001 C CNN
-	1    5950 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5E951B0C
-P 6550 1900
-F 0 "R?" V 6354 1900 50  0000 C CNN
-F 1 "R_Small" V 6445 1900 50  0000 C CNN
-F 2 "" H 6550 1900 50  0001 C CNN
-F 3 "~" H 6550 1900 50  0001 C CNN
-	1    6550 1900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6100 1900 6350 1900
-Wire Wire Line
-	6350 1950 6350 1900
-Connection ~ 6350 1900
-Wire Wire Line
-	6350 1900 6450 1900
-Wire Wire Line
-	5800 1900 5500 1900
-Wire Wire Line
-	5500 1900 5500 2250
-Connection ~ 5500 2250
-$Comp
-L power:GND #PWR?
-U 1 1 5E952B60
-P 6750 1900
-F 0 "#PWR?" H 6750 1650 50  0001 C CNN
-F 1 "GND" V 6755 1772 50  0000 R CNN
-F 2 "" H 6750 1900 50  0001 C CNN
-F 3 "" H 6750 1900 50  0001 C CNN
-	1    6750 1900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6650 1900 6750 1900
+	5950 2650 6100 2650
 $EndSCHEMATC
