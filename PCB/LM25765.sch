@@ -179,7 +179,7 @@ F 6 "Power Supply" H 5800 4050 50  0001 C CNN "Functional Block"
 $EndComp
 Text HLabel 4300 3650 0    50   Input ~ 0
 Vin
-Text HLabel 7900 3850 2    50   Input ~ 0
+Text HLabel 7900 3850 2    50   Output ~ 0
 Vout
 $Comp
 L Device:C_Small C?
