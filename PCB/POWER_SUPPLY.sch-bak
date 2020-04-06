@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 21
+Sheet 9 20
 Title ""
 Date ""
 Rev ""
@@ -43,41 +43,41 @@ $EndComp
 Wire Wire Line
 	5600 3900 5600 3850
 Wire Wire Line
-	3750 2850 3950 2850
+	3750 2800 3950 2800
 Wire Wire Line
 	4100 3200 3950 3200
 Wire Wire Line
-	3950 3200 3950 2850
-Connection ~ 3950 2850
+	3950 3200 3950 2800
+Connection ~ 3950 2800
 $Comp
 L power:GND #PWR?
 U 1 1 5E92F162
-P 3800 3100
-F 0 "#PWR?" H 3800 2850 50  0001 C CNN
-F 1 "GND" H 3805 2927 50  0000 C CNN
-F 2 "" H 3800 3100 50  0001 C CNN
-F 3 "" H 3800 3100 50  0001 C CNN
-	1    3800 3100
+P 3800 3050
+F 0 "#PWR?" H 3800 2800 50  0001 C CNN
+F 1 "GND" H 3805 2877 50  0000 C CNN
+F 2 "" H 3800 3050 50  0001 C CNN
+F 3 "" H 3800 3050 50  0001 C CNN
+	1    3800 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 3050 3800 3050
+	3750 3000 3800 3000
 Wire Wire Line
-	3800 3050 3800 3100
+	3800 3000 3800 3050
 Wire Wire Line
-	6100 2850 6100 3200
+	6100 2800 6100 3200
 Connection ~ 6100 3200
 Wire Wire Line
 	6100 3200 6200 3200
 $Comp
 L Converter_ACDC:IRM-20-15 PS?
 U 1 1 5E92C858
-P 3350 2950
-F 0 "PS?" H 3350 3275 50  0000 C CNN
-F 1 "IRM-30-15" H 3350 3184 50  0000 C CNN
-F 2 "" H 3350 2650 50  0001 C CNN
-F 3 "https://www.meanwell.com/Upload/PDF/IRM-30/IRM-30-SPEC.PDF" H 3750 2600 50  0001 C CNN
-	1    3350 2950
+P 3350 2900
+F 0 "PS?" H 3350 3225 50  0000 C CNN
+F 1 "IRM-30-15" H 3350 3134 50  0000 C CNN
+F 2 "" H 3350 2600 50  0001 C CNN
+F 3 "https://www.meanwell.com/Upload/PDF/IRM-30/IRM-30-SPEC.PDF" H 3750 2550 50  0001 C CNN
+	1    3350 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -85,19 +85,19 @@ Wire Wire Line
 $Comp
 L Device:D_Schottky D?
 U 1 1 5E96E6B3
-P 5850 2850
-F 0 "D?" H 5850 2634 50  0000 C CNN
-F 1 "SK34BTR" H 5850 2725 50  0000 C CNN
-F 2 "" H 5850 2850 50  0001 C CNN
-F 3 "http://www.smc-diodes.com/propdf/SK34B%20N0935%20REV.C.pdf" H 5850 2850 50  0001 C CNN
-	1    5850 2850
+P 5850 2800
+F 0 "D?" H 5850 2584 50  0000 C CNN
+F 1 "SK34BTR" H 5850 2675 50  0000 C CNN
+F 2 "" H 5850 2800 50  0001 C CNN
+F 3 "http://www.smc-diodes.com/propdf/SK34B%20N0935%20REV.C.pdf" H 5850 2800 50  0001 C CNN
+	1    5850 2800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6000 2850 6100 2850
-Text HLabel 2950 2850 0    50   Input ~ 0
+	6000 2800 6100 2800
+Text HLabel 2950 2800 0    50   Input ~ 0
 AC_LIVE
-Text HLabel 2950 3050 0    50   Input ~ 0
+Text HLabel 2950 3000 0    50   Input ~ 0
 AC_NEUTRAL
 Text HLabel 7050 3200 2    50   Output ~ 0
 12V
@@ -159,7 +159,7 @@ F2 "VIN" I L 4100 3200 50
 F3 "VBATT" O R 4750 3200 50 
 $EndSheet
 Wire Wire Line
-	3950 2850 5700 2850
+	3950 2800 5700 2800
 $Comp
 L Device:D_Schottky D?
 U 1 1 5E99D1CB
@@ -173,19 +173,15 @@ F 3 "http://www.smc-diodes.com/propdf/SK34B%20N0935%20REV.C.pdf" H 5850 3200 50 
 $EndComp
 Wire Wire Line
 	5600 3200 5700 3200
-Wire Wire Line
-	6200 3600 6100 3600
-Wire Wire Line
-	6100 3600 6100 3200
-Text HLabel 7050 3600 2    50   Output ~ 0
+Text HLabel 7050 2800 2    50   Output ~ 0
 3V3
 $Sheet
-S 6200 3500 850  200 
+S 6200 2700 850  200 
 U 5E9C913B
 F0 "3V3 Regulator" 50
 F1 "LM25765_3V3.sch" 50
-F2 "Vout" O R 7050 3600 50 
-F3 "Vin" I L 6200 3600 50 
+F2 "Vout" O R 7050 2800 50 
+F3 "Vin" I L 6200 2800 50 
 $EndSheet
 $Sheet
 S 6200 3100 850  200 
@@ -195,4 +191,7 @@ F1 "LM25765_12V.sch" 50
 F2 "Vout" O R 7050 3200 50 
 F3 "Vin" I L 6200 3200 50 
 $EndSheet
+Wire Wire Line
+	6200 2800 6100 2800
+Connection ~ 6100 2800
 $EndSCHEMATC
