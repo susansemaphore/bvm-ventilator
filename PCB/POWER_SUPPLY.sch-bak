@@ -33,7 +33,7 @@ F 3 "~" V 5350 3710 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 3200 4950 3200
+	4150 3200 4950 3200
 Connection ~ 5350 3200
 Wire Wire Line
 	5350 3200 5350 3450
@@ -53,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 2650 3400 2650
 Wire Wire Line
-	3450 3200 3400 3200
+	3500 3200 3400 3200
 Wire Wire Line
 	3400 3200 3400 2650
 Connection ~ 3400 2650
@@ -72,14 +72,6 @@ Wire Wire Line
 	3200 2850 3250 2850
 Wire Wire Line
 	3250 2850 3250 2900
-$Sheet
-S 3450 3100 650  200 
-U 5E910F19
-F0 "SLA Charger" 50
-F1 "LTC4079F_MULTI_CHARGER.sch" 50
-F2 "VIN" I L 3450 3200 50 
-F3 "VBATT" O R 4100 3200 50 
-$EndSheet
 Wire Wire Line
 	6100 2650 6100 3200
 Connection ~ 6100 3200
@@ -186,4 +178,10 @@ Wire Wire Line
 Connection ~ 4950 3200
 Wire Wire Line
 	4950 3200 5350 3200
+$Sheet
+S 3500 3100 650  200 
+U 5E99291C
+F0 "SLA Charger" 50
+F1 "LM317_SLA_CHARGER.sch" 50
+$EndSheet
 $EndSCHEMATC

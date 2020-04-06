@@ -336,47 +336,6 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Jumper_NO_Small
-#
-DEF Device_Jumper_NO_Small JP 0 30 N N 1 F N
-F0 "JP" 0 80 50 H V C CNN
-F1 "Device_Jumper_NO_Small" 10 -60 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*Open*
-$ENDFPLIST
-DRAW
-C -40 0 20 0 1 0 N
-C 40 0 20 0 1 0 N
-X 1 1 -100 0 40 R 50 50 0 1 P
-X 2 2 100 0 40 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_LED
-#
-DEF Device_LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_L_Small
 #
 DEF Device_L_Small L 0 10 N N 1 F N
@@ -445,6 +404,25 @@ P 4 0 1 0 45 0 90 20 90 -20 45 0 F
 X 1 1 0 150 50 D 50 50 1 1 P
 X 2 2 150 0 50 L 50 50 1 1 P
 X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_POT_Small
+#
+DEF Device_R_POT_Small RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "Device_R_POT_Small" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 30 71 -30 -71 0 1 10 N
+P 6 0 1 0 35 0 25 0 65 15 65 -15 25 0 35 0 F
+X 1 1 0 100 25 D 25 25 1 1 P
+X 2 2 100 0 39 L 25 25 1 1 P
+X 3 3 0 -100 25 U 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -694,32 +672,6 @@ X GND 9 0 -400 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# custom_LTC4079
-#
-DEF custom_LTC4079 U 0 40 Y Y 1 F N
-F0 "U" -400 600 50 H V C CNN
-F1 "custom_LTC4079" 0 50 50 H V C CNN
-F2 "" -1050 -350 50 H I C CNN
-F3 "" -1050 -350 50 H I C CNN
-$FPLIST
- *DFN*
-$ENDFPLIST
-DRAW
-S -450 550 450 -500 0 1 0 f
-X VIN 1 -550 450 100 R 50 50 1 1 W
-X BATT 10 550 450 100 L 50 50 1 1 O
-X GND 11 0 -600 100 U 50 50 1 1 W
-X EN 2 -550 250 100 R 50 50 1 1 I
-X PROG 3 -550 -100 100 R 50 50 1 1 I
-X NTCBIAS 4 550 -200 100 L 50 50 1 1 I
-X NTC 5 550 -100 100 L 50 50 1 1 I
-X TIMER 6 -550 -350 100 R 50 50 1 1 I
-X ~CHRG 7 550 -350 100 L 50 50 1 1 C
-X FBG 8 550 50 100 L 50 50 1 1 C
-X FB 9 550 150 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # custom_MPRxxxxxxxxxxxxxx
 #
 DEF custom_MPRxxxxxxxxxxxxxx U 0 40 Y Y 1 F N
@@ -791,6 +743,31 @@ X ISENA 6 -400 -700 100 R 50 50 1 1 B
 X AOUT2 7 600 -100 100 L 50 50 1 1 O
 X BOUT2 8 600 -300 100 L 50 50 1 1 O
 X ISENB 9 -400 -800 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# dk_PMIC-Voltage-Regulators-Linear_LM317DCYR
+#
+DEF dk_PMIC-Voltage-Regulators-Linear_LM317DCYR U 0 20 Y Y 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "dk_PMIC-Voltage-Regulators-Linear_LM317DCYR" 0 250 60 H V C CNN
+F2 "digikey-footprints:SOT-223-4" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm317" 200 300 60 H I L CNN
+F4 "296-12602-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LM317DCYR" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm317" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/LM317DCYR/296-12602-1-ND/443738" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LIN POS ADJ 1.5A SOT223-4" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 200 -200 0 1 0 f
+X ADJ 1 0 -300 100 U 50 50 1 1 I
+X OUT 2 300 0 100 L 50 50 1 1 w
+X IN 3 -300 0 100 R 50 50 1 1 W
+X OUT 4 300 -100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
