@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 20
+Sheet 9 21
 Title ""
 Date ""
 Rev ""
@@ -13,14 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 6200 3100 850  200 
-U 5E904307
-F0 "12v  Regulator" 50
-F1 "LM25765.sch" 50
-F2 "Vin" I L 6200 3200 50 
-F3 "Vout" O R 7050 3200 50 
-$EndSheet
 $Comp
 L Device:Battery BT?
 U 1 1 5E90B731
@@ -33,7 +25,7 @@ F 3 "~" V 5600 3710 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 3200 5300 3200
+	4750 3200 5300 3200
 Connection ~ 5600 3200
 Wire Wire Line
 	5600 3200 5600 3450
@@ -53,7 +45,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2850 3950 2850
 Wire Wire Line
-	4050 3200 3950 3200
+	4100 3200 3950 3200
 Wire Wire Line
 	3950 3200 3950 2850
 Connection ~ 3950 2850
@@ -159,12 +151,12 @@ Connection ~ 5300 3200
 Wire Wire Line
 	5300 3200 5600 3200
 $Sheet
-S 4050 3100 650  200 
+S 4100 3100 650  200 
 U 5E99291C
 F0 "SLA Charger" 50
 F1 "LM317_SLA_CHARGER.sch" 50
-F2 "VIN" I L 4050 3200 50 
-F3 "VBATT" O R 4700 3200 50 
+F2 "VIN" I L 4100 3200 50 
+F3 "VBATT" O R 4750 3200 50 
 $EndSheet
 Wire Wire Line
 	3950 2850 5700 2850
@@ -181,4 +173,26 @@ F 3 "http://www.smc-diodes.com/propdf/SK34B%20N0935%20REV.C.pdf" H 5850 3200 50 
 $EndComp
 Wire Wire Line
 	5600 3200 5700 3200
+Wire Wire Line
+	6200 3600 6100 3600
+Wire Wire Line
+	6100 3600 6100 3200
+Text HLabel 7050 3600 2    50   Output ~ 0
+3V3
+$Sheet
+S 6200 3500 850  200 
+U 5E9C913B
+F0 "3V3 Regulator" 50
+F1 "LM25765_3V3.sch" 50
+F2 "Vout" O R 7050 3600 50 
+F3 "Vin" I L 6200 3600 50 
+$EndSheet
+$Sheet
+S 6200 3100 850  200 
+U 5E9C98F5
+F0 "12V Regulator" 50
+F1 "LM25765_12V.sch" 50
+F2 "Vout" O R 7050 3200 50 
+F3 "Vin" I L 6200 3200 50 
+$EndSheet
 $EndSCHEMATC
