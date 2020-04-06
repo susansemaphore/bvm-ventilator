@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 20
+Sheet 1 19
 Title "BVM Ventilator"
 Date ""
 Rev "v1.0.0"
@@ -48,14 +48,6 @@ F2 "V_MOTOR" I L 1350 5250 50
 F3 "STEP" I R 2200 5450 50 
 F4 "DIR" I R 2200 5550 50 
 F5 "~ENABLE" I R 2200 5250 50 
-$EndSheet
-$Sheet
-S 7350 2100 550  300 
-U 5E866D57
-F0 "Loadcell Amp" 50
-F1 "HX711_LOADCELL_AMP.sch" 50
-F2 "DOUT" O L 7350 2200 50 
-F3 "SCK" I L 7350 2300 50 
 $EndSheet
 $Sheet
 S 10100 5650 550  200 
@@ -151,10 +143,6 @@ Text Label 6250 3900 0    50   ~ 0
 STEP
 Text Label 6250 4000 0    50   ~ 0
 DIR
-Text Label 7350 2200 2    50   ~ 0
-LC_DATA
-Text Label 7350 2300 2    50   ~ 0
-LC_CLK
 Text Label 6250 4200 0    50   ~ 0
 LC_DATA
 Text Label 6250 4100 0    50   ~ 0
