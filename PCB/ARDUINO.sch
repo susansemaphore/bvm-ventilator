@@ -229,7 +229,7 @@ AR Path="/5E88BF58" Ref="U?"  Part="1"
 AR Path="/5E880AC6/5E88BF58" Ref="U1"  Part="1" 
 F 0 "U1" H 5150 5300 45  0000 C CNN
 F 1 "ATMEGA328P_TQFP" V 5850 4000 45  0000 C CNN
-F 2 "TQFP32-08" H 5850 5350 20  0001 C CNN
+F 2 "" H 5850 5350 20  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf" H 5850 4000 50  0001 C CNN
 	1    5850 4000
 	1    0    0    -1  
