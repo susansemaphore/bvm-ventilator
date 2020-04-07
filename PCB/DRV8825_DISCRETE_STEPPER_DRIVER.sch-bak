@@ -23,15 +23,8 @@ F 0 "U?" H 5300 4500 60  0000 C CNN
 F 1 "DRV8825PWPR" V 5650 3550 60  0000 C CNN
 F 2 "digikey-footprints:TSSOP-28-1EP_W4.40mm" H 5750 4050 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdrv8825" H 5750 4150 60  0001 L CNN
-F 4 "296-29503-1-ND" H 5750 4250 60  0001 L CNN "Digi-Key_PN"
-F 5 "DRV8825PWPR" H 5750 4350 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 5750 4450 60  0001 L CNN "Category"
-F 7 "PMIC - Motor Drivers, Controllers" H 5750 4550 60  0001 L CNN "Family"
-F 8 "" H 5750 4650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "" H 5750 4750 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC MTR DRVR BIPLR 8.2-45V 28SSOP" H 5750 4850 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 5750 4950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5750 5050 60  0001 L CNN "Status"
+F 4 "DRV8825PWPR" H 5750 4350 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 5750 4950 60  0001 L CNN "Manufacturer"
 	1    5550 3850
 	1    0    0    -1  
 $EndComp
@@ -442,6 +435,8 @@ $Comp
 L Device:R_Small R?
 U 1 1 5E8B797B
 P 3550 3250
+AR Path="/5E8A6686/5E8D27A6/5E8B797B" Ref="R?"  Part="1" 
+AR Path="/5E8813FF/5E8D27A6/5E8B797B" Ref="R?"  Part="1" 
 F 0 "R?" H 3609 3296 50  0000 L CNN
 F 1 "5k6" H 3609 3205 50  0000 L CNN
 F 2 "" H 3550 3250 50  0001 C CNN
@@ -453,6 +448,8 @@ $Comp
 L Device:R_Small R?
 U 1 1 5E8B7AF6
 P 3550 3550
+AR Path="/5E8A6686/5E8D27A6/5E8B7AF6" Ref="R?"  Part="1" 
+AR Path="/5E8813FF/5E8D27A6/5E8B7AF6" Ref="R?"  Part="1" 
 F 0 "R?" H 3609 3596 50  0000 L CNN
 F 1 "1k" H 3609 3505 50  0000 L CNN
 F 2 "" H 3550 3550 50  0001 C CNN

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 20
+Sheet 10 20
 Title ""
 Date ""
 Rev ""
@@ -25,15 +25,8 @@ F 0 "U?" H 5700 3887 60  0000 C CNN
 F 1 "LM317DCYR" H 5700 3781 60  0000 C CNN
 F 2 "digikey-footprints:SOT-223-4" H 5900 3800 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm317" H 5900 3900 60  0001 L CNN
-F 4 "296-12602-1-ND" H 5900 4000 60  0001 L CNN "Digi-Key_PN"
-F 5 "LM317DCYR" H 5900 4100 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 5900 4200 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 5900 4300 60  0001 L CNN "Family"
-F 8 "" H 5900 4400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "" H 5900 4500 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LIN POS ADJ 1.5A SOT223-4" H 5900 4600 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 5900 4700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5900 4800 60  0001 L CNN "Status"
+F 4 "LM317DCYR" H 5900 4100 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 5900 4700 60  0001 L CNN "Manufacturer"
 	1    5700 3600
 	1    0    0    -1  
 $EndComp

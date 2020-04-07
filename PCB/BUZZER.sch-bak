@@ -32,15 +32,8 @@ F 0 "Q?" H 5488 4503 60  0000 L CNN
 F 1 "MMBT4401-7-F" H 5488 4397 60  0000 L CNN
 F 2 "digikey-footprints:SOT-23-3" H 5500 4650 60  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30039.pdf" H 5500 4750 60  0001 L CNN
-F 4 "MMBT4401-FDICT-ND" H 5500 4850 60  0001 L CNN "Digi-Key_PN"
-F 5 "MMBT4401-7-F" H 5500 4950 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 5500 5050 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 5500 5150 60  0001 L CNN "Family"
-F 8 "" H 5500 5250 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "" H 5500 5350 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.6A SMD SOT23-3" H 5500 5450 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 5500 5550 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5500 5650 60  0001 L CNN "Status"
+F 4 "MMBT4401-7-F" H 5500 4950 60  0001 L CNN "MPN"
+F 5 "Diodes Incorporated" H 5500 5550 60  0001 L CNN "Manufacturer"
 	1    5300 4450
 	1    0    0    -1  
 $EndComp
