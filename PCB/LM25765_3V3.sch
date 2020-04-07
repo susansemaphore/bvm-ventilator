@@ -37,7 +37,7 @@ AR Path="/5E880E11/5E904307/5B713F8D" Ref="U?"  Part="1"
 AR Path="/5E880E11/5E9C764B/5B713F8D" Ref="U?"  Part="1" 
 AR Path="/5E880E11/5E9C913B/5B713F8D" Ref="U5"  Part="1" 
 F 0 "U5" H 5200 4117 50  0000 C CNN
-F 1 "LM2576S-12" H 5200 4026 50  0000 C CNN
+F 1 "LM2576S-3.3" H 5200 4026 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 5200 3500 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 5200 3750 50  0001 C CNN
 F 4 "LM2576SX-3.3/NOPB" H 0   0   50  0001 C CNN "MPN"
@@ -167,6 +167,7 @@ F 2 "Capacitors:0603" H 6800 4050 50  0001 C CNN
 F 3 "" H 6800 4050 50  0001 C CNN
 F 4 "Power Supply" H 6800 4050 50  0001 C CNN "Functional Block"
 F 5 "X7R" H -700 -100 50  0001 C CNN "Dielectric"
+F 6 "6.3V" H 6800 4050 50  0001 C CNN "Voltage Rating"
 	1    6800 4050
 	1    0    0    -1  
 $EndComp
@@ -185,6 +186,7 @@ F 2 "Capacitors:0603" H 7150 4050 50  0001 C CNN
 F 3 "" H 7150 4050 50  0001 C CNN
 F 4 "Power Supply" H 7150 4050 50  0001 C CNN "Functional Block"
 F 5 "X7R" H -700 -100 50  0001 C CNN "Dielectric"
+F 6 "6.3V" H 7150 4050 50  0001 C CNN "Voltage Rating"
 	1    7150 4050
 	1    0    0    -1  
 $EndComp

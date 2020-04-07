@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 20
+Sheet 13 20
 Title ""
 Date ""
 Rev ""
@@ -156,6 +156,7 @@ F 1 "100uF" H 6042 2455 50  0000 L CNN
 F 2 "" H 5950 2500 50  0001 C CNN
 F 3 "" H 5950 2500 50  0001 C CNN
 F 4 "50V" H 5950 2500 50  0001 C CNN "Voltage Rating"
+F 5 "Tantalum" H 5950 2500 50  0001 C CNN "Dielectric"
 	1    5950 2500
 	1    0    0    -1  
 $EndComp
@@ -187,6 +188,7 @@ F 1 "10uF" H 5692 2455 50  0000 L CNN
 F 2 "" H 5600 2500 50  0001 C CNN
 F 3 "" H 5600 2500 50  0001 C CNN
 F 4 "50V" H 5600 2500 50  0001 C CNN "Voltage Rating"
+F 5 "X7R" H 5600 2500 50  0001 C CNN "Dielectric"
 	1    5600 2500
 	1    0    0    -1  
 $EndComp
@@ -218,6 +220,9 @@ F 1 "1000uF" H 6442 2455 50  0000 L CNN
 F 2 "" H 6350 2500 50  0001 C CNN
 F 3 "" H 6350 2500 50  0001 C CNN
 F 4 "50V" H 6350 2500 50  0001 C CNN "Voltage Rating"
+F 5 "Aluminium Film" H 6350 2500 50  0001 C CNN "Dielectric"
+F 6 "General Purpose" H 6350 2500 50  0001 C CNN "Impedance"
+F 7 "1000hr @ 85degC" H 6350 2500 50  0001 C CNN "Lifetime @ Temperature"
 	1    6350 2500
 	1    0    0    -1  
 $EndComp
@@ -249,6 +254,7 @@ F 1 "10uF" H 5342 2455 50  0000 L CNN
 F 2 "" H 5250 2500 50  0001 C CNN
 F 3 "" H 5250 2500 50  0001 C CNN
 F 4 "6.3V" H 5250 2500 50  0001 C CNN "Voltage Rating"
+F 5 "X7R" H 5250 2500 50  0001 C CNN "Dielectric"
 	1    5250 2500
 	1    0    0    -1  
 $EndComp

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 20
+Sheet 15 20
 Title ""
 Date ""
 Rev ""
@@ -91,6 +91,8 @@ F 0 "C43" H 5592 2796 50  0000 L CNN
 F 1 "1uF" H 5592 2705 50  0000 L CNN
 F 2 "" H 5500 2750 50  0001 C CNN
 F 3 "" H 5500 2750 50  0001 C CNN
+F 4 "X7R" H 5500 2750 50  0001 C CNN "Dielectric"
+F 5 "6.3V" H 5500 2750 50  0001 C CNN "Voltage Rating"
 	1    5500 2750
 	1    0    0    -1  
 $EndComp

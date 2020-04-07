@@ -61,7 +61,7 @@ F 3 "" H 6300 4050 50  0001 C CNN
 F 4 "UWT0J102MNL1GS" H 6300 4050 50  0001 C CNN "MPN"
 F 5 "Power Supply" H 6300 4050 50  0001 C CNN "Functional Block"
 F 6 "Aluminium Film" H -700 -100 50  0001 C CNN "Dielectric"
-F 7 "6.3V" H -700 -100 50  0001 C CNN "Voltage Rating"
+F 7 "16V" H -700 -100 50  0001 C CNN "Voltage Rating"
 F 8 "General Purpose" H -700 -100 50  0001 C CNN "Impedance"
 F 9 "1000hr @ 85degC" H -700 -100 50  0001 C CNN "Lifetime @ Temperature"
 	1    6300 4050
@@ -167,6 +167,7 @@ F 2 "Capacitors:0603" H 6800 4050 50  0001 C CNN
 F 3 "" H 6800 4050 50  0001 C CNN
 F 4 "Power Supply" H 6800 4050 50  0001 C CNN "Functional Block"
 F 5 "X7R" H -700 -100 50  0001 C CNN "Dielectric"
+F 6 "16V" H 6800 4050 50  0001 C CNN "Voltage Rating"
 	1    6800 4050
 	1    0    0    -1  
 $EndComp
@@ -185,6 +186,7 @@ F 2 "Capacitors:0603" H 7150 4050 50  0001 C CNN
 F 3 "" H 7150 4050 50  0001 C CNN
 F 4 "Power Supply" H 7150 4050 50  0001 C CNN "Functional Block"
 F 5 "X7R" H -700 -100 50  0001 C CNN "Dielectric"
+F 6 "16V" H 7150 4050 50  0001 C CNN "Voltage Rating"
 	1    7150 4050
 	1    0    0    -1  
 $EndComp
@@ -236,7 +238,7 @@ F 4 "EEE-0JA470WR" H -700 -100 50  0001 C CNN "MPN"
 F 5 "Panasonic" H -700 -100 50  0001 C CNN "Manufacturer"
 F 6 "Power Supply" H 7550 4050 50  0001 C CNN "Functional Block"
 F 7 "Aluminium Film" H -700 -100 50  0001 C CNN "Dielectric"
-F 8 "6.3V" H -700 -100 50  0001 C CNN "Voltage Rating"
+F 8 "16V" H -700 -100 50  0001 C CNN "Voltage Rating"
 F 9 "General Purpose" H -700 -100 50  0001 C CNN "Impedance"
 F 10 "1000hr @ 85degC" H -700 -100 50  0001 C CNN "Lifetime @ Temperature"
 	1    7550 4050

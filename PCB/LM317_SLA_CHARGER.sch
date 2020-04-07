@@ -38,6 +38,10 @@ F 0 "C22" H 5160 3796 50  0000 R CNN
 F 1 "100uF" H 5160 3705 50  0000 R CNN
 F 2 "" H 5250 3750 50  0001 C CNN
 F 3 "" H 5250 3750 50  0001 C CNN
+F 4 "Aluminium Film" H 5250 3750 50  0001 C CNN "Dielectric"
+F 5 "16V" H 5250 3750 50  0001 C CNN "Voltage Rating"
+F 6 "General Purpose" H 5250 3750 50  0001 C CNN "Impedance"
+F 7 "1000hr @ 85degC" H 5250 3750 50  0001 C CNN "Lifetime @ Temperature"
 	1    5250 3750
 	1    0    0    -1  
 $EndComp
