@@ -20,7 +20,7 @@ P 5800 3900
 F 0 "U11" H 6250 4250 50  0000 R CNN
 F 1 "HIH712x" H 5950 3900 50  0000 R CNN
 F 2 "" H 5800 3900 50  0001 C CNN
-F 3 "" H 5800 3900 50  0001 C CNN
+F 3 "https://sensing.honeywell.com/index.php?ci_id=147071" H 5800 3900 50  0001 C CNN
 	1    5800 3900
 	1    0    0    -1  
 $EndComp
