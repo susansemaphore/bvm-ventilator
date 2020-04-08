@@ -170,7 +170,7 @@ F 3 "http://www.smc-diodes.com/propdf/SK34B%20N0935%20REV.C.pdf" H 5850 3200 50 
 $EndComp
 Wire Wire Line
 	5600 3200 5700 3200
-Text HLabel 7300 2550 2    50   Output ~ 0
+Text HLabel 7050 2400 2    50   Output ~ 0
 3V3
 $Sheet
 S 6200 2700 850  200 

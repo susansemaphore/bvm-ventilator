@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 25
+Sheet 18 25
 Title ""
 Date ""
 Rev ""
@@ -50,17 +50,6 @@ Wire Wire Line
 	5500 3950 5250 3950
 Wire Wire Line
 	5250 3950 5250 3900
-$Comp
-L power:+3.3V #PWR0126
-U 1 1 5E8C03DD
-P 5250 3650
-F 0 "#PWR0126" H 5250 3500 50  0001 C CNN
-F 1 "+3.3V" H 5265 3823 50  0000 C CNN
-F 2 "" H 5250 3650 50  0001 C CNN
-F 3 "" H 5250 3650 50  0001 C CNN
-	1    5250 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5250 3650 5250 3700
 Text HLabel 5200 3950 0    50   Output ~ 0
@@ -118,17 +107,6 @@ Wire Wire Line
 	6100 3950 6150 3950
 Wire Wire Line
 	6150 3950 6150 3900
-$Comp
-L power:+3.3V #PWR0129
-U 1 1 5E8C5D26
-P 6150 3650
-F 0 "#PWR0129" H 6150 3500 50  0001 C CNN
-F 1 "+3.3V" H 6165 3823 50  0000 C CNN
-F 2 "" H 6150 3650 50  0001 C CNN
-F 3 "" H 6150 3650 50  0001 C CNN
-	1    6150 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6150 3650 6150 3700
 $Comp
@@ -151,4 +129,30 @@ BUTTON
 Wire Wire Line
 	6200 3950 6150 3950
 Connection ~ 6150 3950
+$Comp
+L power:+5V #PWR?
+U 1 1 5E91E86F
+P 6150 3650
+AR Path="/5E8A6686/5E91E86F" Ref="#PWR?"  Part="1" 
+AR Path="/5E8BEE14/5E91E86F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 3500 50  0001 C CNN
+F 1 "+5V" H 6165 3823 50  0000 C CNN
+F 2 "" H 6150 3650 50  0001 C CNN
+F 3 "" H 6150 3650 50  0001 C CNN
+	1    6150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E91E997
+P 5250 3650
+AR Path="/5E8A6686/5E91E997" Ref="#PWR?"  Part="1" 
+AR Path="/5E8BEE14/5E91E997" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5250 3500 50  0001 C CNN
+F 1 "+5V" H 5265 3823 50  0000 C CNN
+F 2 "" H 5250 3650 50  0001 C CNN
+F 3 "" H 5250 3650 50  0001 C CNN
+	1    5250 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

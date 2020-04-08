@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 25
+Sheet 12 25
 Title ""
 Date ""
 Rev ""
@@ -37,7 +37,7 @@ AR Path="/5E880E11/5E904307/5B713F8D" Ref="U?"  Part="1"
 AR Path="/5E880E11/5E9C764B/5B713F8D" Ref="U?"  Part="1" 
 AR Path="/5E880E11/5E9C913B/5B713F8D" Ref="U5"  Part="1" 
 F 0 "U5" H 5200 4117 50  0000 C CNN
-F 1 "LM2576S-3.3" H 5200 4026 50  0000 C CNN
+F 1 "LM2576S-5" H 5200 4026 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 5200 3500 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 5200 3750 50  0001 C CNN
 F 4 "LM2576SX-3.3/NOPB" H 0   0   50  0001 C CNN "MPN"

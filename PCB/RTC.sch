@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 25
+Sheet 16 25
 Title ""
 Date ""
 Rev ""
@@ -46,17 +46,6 @@ F 3 "" H 6200 3550 50  0001 C CNN
 	1    6200 3550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:+3.3V #PWR0118
-U 1 1 5E875558
-P 5500 3650
-F 0 "#PWR0118" H 5500 3500 50  0001 C CNN
-F 1 "+3.3V" H 5515 3823 50  0000 C CNN
-F 2 "" H 5500 3650 50  0001 C CNN
-F 3 "" H 5500 3650 50  0001 C CNN
-	1    5500 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 3650 5500 3700
 Wire Wire Line
@@ -96,17 +85,6 @@ F 5 "6.3V" H 5500 2750 50  0001 C CNN "Voltage Rating"
 	1    5500 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR0116
-U 1 1 5E879CC5
-P 5500 2600
-F 0 "#PWR0116" H 5500 2450 50  0001 C CNN
-F 1 "+3.3V" H 5515 2773 50  0000 C CNN
-F 2 "" H 5500 2600 50  0001 C CNN
-F 3 "" H 5500 2600 50  0001 C CNN
-	1    5500 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 2600 5500 2650
 $Comp
@@ -133,17 +111,6 @@ F 3 "" H 4950 4300 50  0001 C CNN
 	1    4950 4300
 	0    1    1    0   
 $EndComp
-$Comp
-L power:+3.3V #PWR0115
-U 1 1 5E87C09D
-P 4800 4250
-F 0 "#PWR0115" H 4800 4100 50  0001 C CNN
-F 1 "+3.3V" H 4815 4423 50  0000 C CNN
-F 2 "" H 4800 4250 50  0001 C CNN
-F 3 "" H 4800 4250 50  0001 C CNN
-	1    4800 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 4250 4800 4300
 Wire Wire Line
@@ -161,17 +128,6 @@ F 3 "" H 6250 4000 50  0001 C CNN
 	1    6250 4000
 	1    0    0    1   
 $EndComp
-$Comp
-L power:+3.3V #PWR0121
-U 1 1 5E87E247
-P 6250 3850
-F 0 "#PWR0121" H 6250 3700 50  0001 C CNN
-F 1 "+3.3V" H 6265 4023 50  0000 C CNN
-F 2 "" H 6250 3850 50  0001 C CNN
-F 3 "" H 6250 3850 50  0001 C CNN
-	1    6250 3850
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 4200 6250 4200
 Wire Wire Line
@@ -183,4 +139,52 @@ Text HLabel 6300 4200 2    50   Output ~ 0
 Wire Wire Line
 	6300 4200 6250 4200
 Connection ~ 6250 4200
+$Comp
+L power:+5V #PWR?
+U 1 1 5E91AA2A
+P 4800 4250
+AR Path="/5E8A6686/5E91AA2A" Ref="#PWR?"  Part="1" 
+AR Path="/5E87171F/5E91AA2A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 4100 50  0001 C CNN
+F 1 "+5V" H 4815 4423 50  0000 C CNN
+F 2 "" H 4800 4250 50  0001 C CNN
+F 3 "" H 4800 4250 50  0001 C CNN
+	1    4800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E91AB6A
+P 5500 3650
+AR Path="/5E8A6686/5E91AB6A" Ref="#PWR?"  Part="1" 
+AR Path="/5E87171F/5E91AB6A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5500 3500 50  0001 C CNN
+F 1 "+5V" H 5515 3823 50  0000 C CNN
+F 2 "" H 5500 3650 50  0001 C CNN
+F 3 "" H 5500 3650 50  0001 C CNN
+	1    5500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E91B25B
+P 5500 2600
+F 0 "#PWR?" H 5500 2450 50  0001 C CNN
+F 1 "+5V" H 5515 2773 50  0000 C CNN
+F 2 "" H 5500 2600 50  0001 C CNN
+F 3 "" H 5500 2600 50  0001 C CNN
+	1    5500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E91BBAD
+P 6250 3850
+F 0 "#PWR?" H 6250 3700 50  0001 C CNN
+F 1 "+5V" H 6265 4023 50  0000 C CNN
+F 2 "" H 6250 3850 50  0001 C CNN
+F 3 "" H 6250 3850 50  0001 C CNN
+	1    6250 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

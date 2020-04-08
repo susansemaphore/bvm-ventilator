@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 25
+Sheet 17 25
 Title ""
 Date ""
 Rev ""
@@ -85,17 +85,6 @@ Wire Wire Line
 	6150 4400 6150 4350
 Wire Wire Line
 	5900 4400 5900 4250
-$Comp
-L power:+3.3V #PWR0123
-U 1 1 5E8AA8C2
-P 6150 3600
-F 0 "#PWR0123" H 6150 3450 50  0001 C CNN
-F 1 "+3.3V" H 6165 3773 50  0000 C CNN
-F 2 "" H 6150 3600 50  0001 C CNN
-F 3 "" H 6150 3600 50  0001 C CNN
-	1    6150 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6150 3600 6150 3650
 Wire Wire Line
@@ -133,4 +122,15 @@ Wire Wire Line
 	6650 4400 6650 4200
 Wire Wire Line
 	6650 4200 6700 4200
+$Comp
+L power:+5V #PWR?
+U 1 1 5E90B50E
+P 6150 3600
+F 0 "#PWR?" H 6150 3450 50  0001 C CNN
+F 1 "+5V" H 6165 3773 50  0000 C CNN
+F 2 "" H 6150 3600 50  0001 C CNN
+F 3 "" H 6150 3600 50  0001 C CNN
+	1    6150 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
