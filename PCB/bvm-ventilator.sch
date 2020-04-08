@@ -211,13 +211,13 @@ F2 "OUT" O R 8650 6200 50
 $EndSheet
 Text Label 8650 6200 0    50   ~ 0
 BUTTON_3
-Text Label 5400 3600 2    50   ~ 0
+Text Label 4300 3650 2    50   ~ 0
 BUTTON_1
-Text Label 5400 3800 2    50   ~ 0
+Text Label 4300 3850 2    50   ~ 0
 BUTTON_3
-Text Label 5400 3700 2    50   ~ 0
+Text Label 4300 3750 2    50   ~ 0
 BUTTON_2
-Text Label 5400 3900 2    50   ~ 0
+Text Label 4300 3950 2    50   ~ 0
 BUTTON_4
 Text Label 2200 5250 0    50   ~ 0
 ~STEPPER_ENABLE
@@ -310,9 +310,14 @@ F0 "Humidity" 50
 F1 "AIR_HUMIDITY_SENSOR.sch" 50
 $EndSheet
 $Sheet
-S 8550 1700 600  550 
+S 8300 1700 600  200 
 U 5E8D7701
 F0 "Differential Pressure" 50
 F1 "DIFFERENTIAL_PRESSURE.sch" 50
+F2 "OUTPUT" O R 8900 1800 50 
 $EndSheet
+Text Label 8900 1800 0    50   ~ 0
+DIFF_PRESSURE_SENSE
+Text Label 5400 3600 2    50   ~ 0
+DIFF_PRESSURE_SENSE
 $EndSCHEMATC

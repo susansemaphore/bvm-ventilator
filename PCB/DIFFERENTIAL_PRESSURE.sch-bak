@@ -152,51 +152,9 @@ F 3 "" H 6550 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6550 4150 6550 4200
-$Comp
-L Device:R_Small R?
-U 1 1 5E8DE8A9
-P 6800 3850
-F 0 "R?" V 6604 3850 50  0000 C CNN
-F 1 "R_Small" V 6695 3850 50  0000 C CNN
-F 2 "" H 6800 3850 50  0001 C CNN
-F 3 "~" H 6800 3850 50  0001 C CNN
-	1    6800 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5E8DED03
-P 7000 4050
-F 0 "R?" H 6941 4004 50  0000 R CNN
-F 1 "R_Small" H 6941 4095 50  0000 R CNN
-F 2 "" H 7000 4050 50  0001 C CNN
-F 3 "~" H 7000 4050 50  0001 C CNN
-	1    7000 4050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6700 3850 6550 3850
 Connection ~ 6550 3850
-Wire Wire Line
-	6900 3850 7000 3850
-Wire Wire Line
-	7000 3850 7000 3950
-$Comp
-L power:GND #PWR?
-U 1 1 5E8DF45E
-P 7000 4200
-F 0 "#PWR?" H 7000 3950 50  0001 C CNN
-F 1 "GND" H 7005 4027 50  0000 C CNN
-F 2 "" H 7000 4200 50  0001 C CNN
-F 3 "" H 7000 4200 50  0001 C CNN
-	1    7000 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 4150 7000 4200
-Text HLabel 7050 3850 2    50   Output ~ 0
+Text HLabel 6700 3850 2    50   Output ~ 0
 OUTPUT
-Wire Wire Line
-	7050 3850 7000 3850
-Connection ~ 7000 3850
 $EndSCHEMATC
