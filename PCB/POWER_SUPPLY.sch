@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 25
+Sheet 10 26
 Title ""
 Date ""
 Rev ""
@@ -265,8 +265,6 @@ F 3 "" H 8850 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8850 2950 8850 3000
-Text Label 8500 2350 1    50   ~ 0
-5V
 Wire Wire Line
 	8500 2350 8500 2400
 Text Label 8850 2350 1    50   ~ 0
@@ -362,4 +360,16 @@ Text Label 8150 2350 1    50   ~ 0
 3V3
 Wire Wire Line
 	8150 2350 8150 2400
+$Sheet
+S 6200 2300 850  200 
+U 5E940C9C
+F0 "3V3 Regulator" 50
+F1 "MCP1703_3V3.sch" 50
+F2 "Vin" I L 6200 2400 50 
+F3 "Vout" O R 7050 2400 50 
+$EndSheet
+Text Label 8500 2350 1    50   ~ 0
+5V
+Text Label 6200 2400 2    50   ~ 0
+5V
 $EndSCHEMATC
