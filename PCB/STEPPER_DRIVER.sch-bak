@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 22
+Sheet 14 22
 Title ""
 Date ""
 Rev ""
@@ -196,40 +196,6 @@ F 3 "" H 5600 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 2650 5600 2600
-$Comp
-L Device:C_Small C12
-U 1 1 5E857755
-P 6350 2500
-AR Path="/5E8A6686/5E857755" Ref="C12"  Part="1" 
-AR Path="/5E8813FF/5E857755" Ref="C36"  Part="1" 
-F 0 "C36" H 6442 2546 50  0000 L CNN
-F 1 "1000uF" H 6442 2455 50  0000 L CNN
-F 2 "" H 6350 2500 50  0001 C CNN
-F 3 "" H 6350 2500 50  0001 C CNN
-F 4 "50V" H 6350 2500 50  0001 C CNN "Voltage Rating"
-F 5 "Aluminium Film" H 6350 2500 50  0001 C CNN "Dielectric"
-F 6 "General Purpose" H 6350 2500 50  0001 C CNN "Impedance"
-F 7 "1000hr @ 85degC" H 6350 2500 50  0001 C CNN "Lifetime @ Temperature"
-	1    6350 2500
-	1    0    0    -1  
-$EndComp
-Text Label 6350 2400 1    50   ~ 0
-V_MOTOR
-$Comp
-L power:GND #PWR037
-U 1 1 5E85775C
-P 6350 2650
-AR Path="/5E8A6686/5E85775C" Ref="#PWR037"  Part="1" 
-AR Path="/5E8813FF/5E85775C" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 6350 2400 50  0001 C CNN
-F 1 "GND" H 6355 2477 50  0000 C CNN
-F 2 "" H 6350 2650 50  0001 C CNN
-F 3 "" H 6350 2650 50  0001 C CNN
-	1    6350 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 2650 6350 2600
 $Comp
 L Device:C_Small C9
 U 1 1 5E860421

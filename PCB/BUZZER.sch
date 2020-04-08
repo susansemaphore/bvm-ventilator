@@ -21,6 +21,7 @@ F 0 "BZ1" H 5752 4029 50  0000 L CNN
 F 1 "Buzzer" H 5752 3938 50  0000 L CNN
 F 2 "" V 5575 4100 50  0001 C CNN
 F 3 "" V 5575 4100 50  0001 C CNN
+F 4 "5V" H 5600 4000 50  0001 C CNN "Voltage Rating"
 	1    5600 4000
 	1    0    0    -1  
 $EndComp
