@@ -212,13 +212,13 @@ F2 "OUT" O R 8650 6200 50
 $EndSheet
 Text Label 8650 6200 0    50   ~ 0
 BUTTON_3
-Text Label 4300 3650 2    50   ~ 0
+Text Label 5400 3800 2    50   ~ 0
 BUTTON_1
-Text Label 4300 3850 2    50   ~ 0
+Text Label 5400 4400 2    50   ~ 0
 BUTTON_3
-Text Label 4300 3750 2    50   ~ 0
+Text Label 5400 4300 2    50   ~ 0
 BUTTON_2
-Text Label 4300 3950 2    50   ~ 0
+Text Label 5400 4500 2    50   ~ 0
 BUTTON_4
 Text Label 2200 5250 0    50   ~ 0
 ~STEPPER_ENABLE
@@ -347,4 +347,5 @@ Wire Wire Line
 	2350 1000 2650 1000
 Wire Wire Line
 	2650 1000 2650 850 
+NoConn ~ 5400 3900
 $EndSCHEMATC
