@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 21
+Sheet 1 25
 Title "BVM Ventilator"
 Date ""
 Rev "v1.0.0"
@@ -297,4 +297,22 @@ Text Label 6250 3400 0    50   ~ 0
 LINEAR_ENCODER_A
 Text Label 6250 3500 0    50   ~ 0
 LINEAR_ENCODER_B
+$Sheet
+S 9900 1000 550  400 
+U 5E8D66CB
+F0 "Temperature" 50
+F1 "TEMPERATURE_SENSOR.sch" 50
+$EndSheet
+$Sheet
+S 8650 1000 500  400 
+U 5E8D6DCE
+F0 "Humidity" 50
+F1 "AIR_HUMIDITY_SENSOR.sch" 50
+$EndSheet
+$Sheet
+S 8550 1700 600  550 
+U 5E8D7701
+F0 "Differential Pressure" 50
+F1 "DIFFERENTIAL_PRESSURE.sch" 50
+$EndSheet
 $EndSCHEMATC

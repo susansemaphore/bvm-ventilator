@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 21
+Sheet 7 25
 Title ""
 Date ""
 Rev ""
@@ -123,9 +123,40 @@ RESET
 Text HLabel 5450 4400 0    50   Output ~ 0
 EOC
 NoConn ~ 5450 4250
-Text HLabel 5450 4150 0    50   Input ~ 0
+Text HLabel 4100 4150 0    50   Input ~ 0
 SCL
-Text HLabel 5450 4050 0    50   Input ~ 0
+Text HLabel 4100 4050 0    50   Input ~ 0
 SDA
 NoConn ~ 5450 3950
+$Sheet
+S 4100 3800 700  450 
+U 5E8E2D5E
+F0 "Level Shifter" 50
+F1 "I2C_LEVEL_SHIFTER.sch" 50
+F2 "SDA_L" B R 4800 4050 50 
+F3 "SCL_L" B R 4800 4150 50 
+F4 "SDA_H" B L 4100 4050 50 
+F5 "SCL_H" B L 4100 4150 50 
+F6 "VCC_H" I L 4100 3900 50 
+F7 "VCC_L" I R 4800 3900 50 
+$EndSheet
+Wire Wire Line
+	4800 4050 5450 4050
+Wire Wire Line
+	4800 4150 5450 4150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E8F8A8D
+P 4950 3800
+F 0 "#PWR?" H 4950 3650 50  0001 C CNN
+F 1 "+3.3V" H 4965 3973 50  0000 C CNN
+F 2 "" H 4950 3800 50  0001 C CNN
+F 3 "" H 4950 3800 50  0001 C CNN
+	1    4950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3900 4950 3900
+Wire Wire Line
+	4950 3900 4950 3800
 $EndSCHEMATC
