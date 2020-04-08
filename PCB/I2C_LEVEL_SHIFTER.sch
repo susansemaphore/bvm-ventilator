@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q2
 U 1 1 5E8E373A
 P 6100 3750
-F 0 "Q?" V 6349 3750 50  0000 C CNN
+F 0 "Q2" V 6349 3750 50  0000 C CNN
 F 1 "BSS138" V 6440 3750 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6300 3675 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6100 3750 50  0001 L CNN
@@ -25,10 +25,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6100 3750 50  000
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q3
 U 1 1 5E8E4A70
 P 6400 4150
-F 0 "Q?" V 6649 4150 50  0000 C CNN
+F 0 "Q3" V 6649 4150 50  0000 C CNN
 F 1 "BSS138" V 6740 4150 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6600 4075 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6400 4150 50  0001 L CNN
@@ -50,10 +50,10 @@ Wire Wire Line
 Wire Wire Line
 	6300 3850 7050 3850
 $Comp
-L Device:R_Small R?
+L Device:R_Small R13
 U 1 1 5E8E9A65
 P 7050 3650
-F 0 "R?" H 7109 3696 50  0000 L CNN
+F 0 "R13" H 7109 3696 50  0000 L CNN
 F 1 "10k" H 7109 3605 50  0000 L CNN
 F 2 "" H 7050 3650 50  0001 C CNN
 F 3 "~" H 7050 3650 50  0001 C CNN
@@ -61,10 +61,10 @@ F 3 "~" H 7050 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R12
 U 1 1 5E8EA22E
 P 6750 3650
-F 0 "R?" H 6809 3696 50  0000 L CNN
+F 0 "R12" H 6809 3696 50  0000 L CNN
 F 1 "10k" H 6809 3605 50  0000 L CNN
 F 2 "" H 6750 3650 50  0001 C CNN
 F 3 "~" H 6750 3650 50  0001 C CNN
@@ -72,10 +72,10 @@ F 3 "~" H 6750 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R11
 U 1 1 5E8EC794
 P 5600 3650
-F 0 "R?" H 5659 3696 50  0000 L CNN
+F 0 "R11" H 5659 3696 50  0000 L CNN
 F 1 "10k" H 5659 3605 50  0000 L CNN
 F 2 "" H 5600 3650 50  0001 C CNN
 F 3 "~" H 5600 3650 50  0001 C CNN
@@ -83,10 +83,10 @@ F 3 "~" H 5600 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R10
 U 1 1 5E8EC79A
 P 5300 3650
-F 0 "R?" H 5359 3696 50  0000 L CNN
+F 0 "R10" H 5359 3696 50  0000 L CNN
 F 1 "10k" H 5359 3605 50  0000 L CNN
 F 2 "" H 5300 3650 50  0001 C CNN
 F 3 "~" H 5300 3650 50  0001 C CNN
