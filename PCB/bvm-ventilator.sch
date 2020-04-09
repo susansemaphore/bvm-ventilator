@@ -50,24 +50,24 @@ F4 "DIR" I R 3950 4400 50
 F5 "~ENABLE" I R 3950 4100 50 
 $EndSheet
 $Sheet
-S 7200 4850 550  200 
+S 6800 4850 550  200 
 U 5E8EB699
 F0 "Alarm buzzer" 50
 F1 "BUZZER.sch" 50
-F2 "ENABLE" I R 7750 4950 50 
+F2 "ENABLE" I R 7350 4950 50 
 $EndSheet
 $Sheet
-S 7200 5300 550  600 
+S 6800 5300 550  600 
 U 5E8F3A13
 F0 "OLED" 50
 F1 "SSD1306_OLED.sch" 50
-F2 "SCL" I R 7750 5500 50 
-F3 "SDA" I R 7750 5400 50 
-F4 "MOSI" I L 7200 5400 50 
-F5 "SCK" I L 7200 5500 50 
-F6 "DC" I L 7200 5700 50 
-F7 "CS" I L 7200 5800 50 
-F8 "RES" I L 7200 5600 50 
+F2 "SCL" I R 7350 5500 50 
+F3 "SDA" I R 7350 5400 50 
+F4 "MOSI" I L 6800 5400 50 
+F5 "SCK" I L 6800 5500 50 
+F6 "DC" I L 6800 5700 50 
+F7 "CS" I L 6800 5800 50 
+F8 "RES" I L 6800 5600 50 
 $EndSheet
 $Sheet
 S 2850 2450 550  550 
@@ -123,9 +123,9 @@ Text Label 6450 3800 2    50   ~ 0
 SDA
 Text Label 6450 3900 2    50   ~ 0
 SCL
-Text Label 7750 5400 0    50   ~ 0
+Text Label 7350 5400 0    50   ~ 0
 SDA
-Text Label 7750 5500 0    50   ~ 0
+Text Label 7350 5500 0    50   ~ 0
 SCL
 Text Label 3400 2800 0    50   ~ 0
 SDA
@@ -147,7 +147,7 @@ Text Label 7300 3850 0    50   ~ 0
 STEPPER_STEP
 Text Label 7300 3950 0    50   ~ 0
 STEPPER_DIR
-Text Label 7750 4950 0    50   ~ 0
+Text Label 7350 4950 0    50   ~ 0
 BUZZ_ENABLE
 Text Label 6450 3150 2    50   ~ 0
 BUZZ_ENABLE
@@ -161,19 +161,19 @@ Text Label 3950 4850 0    50   ~ 0
 Text Label 6450 3250 2    50   ~ 0
 VBATT_SENSE
 $Sheet
-S 5450 4850 550  400 
+S 5050 4850 550  400 
 U 5E8BEE14
 F0 "Rotarty Encoder" 50
 F1 "ROTARY_ENCODER.sch" 50
-F2 "A" O R 6000 4950 50 
-F3 "B" O R 6000 5050 50 
-F4 "BUTTON" O R 6000 5150 50 
+F2 "A" O R 5600 4950 50 
+F3 "B" O R 5600 5050 50 
+F4 "BUTTON" O R 5600 5150 50 
 $EndSheet
-Text Label 6000 4950 0    50   ~ 0
+Text Label 5600 4950 0    50   ~ 0
 ROTARY_ENCODER_A
-Text Label 6000 5050 0    50   ~ 0
+Text Label 5600 5050 0    50   ~ 0
 ROTARY_ENCODER_B
-Text Label 6000 5150 0    50   ~ 0
+Text Label 5600 5150 0    50   ~ 0
 ROTARY_ENCODER_BUTTON
 Text Label 7300 3350 0    50   ~ 0
 ROTARY_ENCODER_A
@@ -182,13 +182,13 @@ ROTARY_ENCODER_B
 Text Label 7300 3550 0    50   ~ 0
 ROTARY_ENCODER_BUTTON
 $Sheet
-S 5450 5500 550  200 
+S 5050 5500 550  200 
 U 5E8CBD7F
 F0 "BUTTON_1" 50
 F1 "BUTTON.sch" 50
-F2 "OUT" O R 6000 5600 50 
+F2 "OUT" O R 5600 5600 50 
 $EndSheet
-Text Label 6000 5600 0    50   ~ 0
+Text Label 5600 5600 0    50   ~ 0
 BUTTON_1
 Text Label 6450 3450 2    50   ~ 0
 BUTTON_1
@@ -342,24 +342,24 @@ Text Label 6450 3650 2    50   ~ 0
 DISPLAY_CS
 Text Label 6450 3550 2    50   ~ 0
 DISPLAY_DC
-Text Label 7200 5700 2    50   ~ 0
+Text Label 6800 5700 2    50   ~ 0
 DISPLAY_DC
-Text Label 7200 5800 2    50   ~ 0
+Text Label 6800 5800 2    50   ~ 0
 DISPLAY_CS
-Text Label 7200 5600 2    50   ~ 0
+Text Label 6800 5600 2    50   ~ 0
 MISO
-Text Label 7200 5400 2    50   ~ 0
+Text Label 6800 5400 2    50   ~ 0
 MOSI
-Text Label 7200 5500 2    50   ~ 0
+Text Label 6800 5500 2    50   ~ 0
 SCK
 Wire Notes Line
 	4950 4700 4950 6050
 Wire Notes Line
-	4950 6050 8350 6050
+	4950 6050 7900 6050
 Wire Notes Line
-	8350 6050 8350 4700
+	7900 6050 7900 4700
 Wire Notes Line
-	8350 4700 4950 4700
+	7900 4700 4950 4700
 Text Notes 2750 3850 0    79   ~ 0
 Motion Control
 Text Notes 5550 2900 0    79   ~ 0
@@ -404,4 +404,15 @@ Wire Notes Line
 	4550 3550 4550 2950
 Text Notes 4550 2950 0    79   ~ 0
 Misc.
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E8ED4B0
+P 8500 5000
+F 0 "TP?" H 8558 5118 50  0000 L CNN
+F 1 "TestPoint" H 8558 5027 50  0000 L CNN
+F 2 "" H 8700 5000 50  0001 C CNN
+F 3 "~" H 8700 5000 50  0001 C CNN
+	1    8500 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
