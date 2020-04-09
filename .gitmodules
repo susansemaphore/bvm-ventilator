@@ -1,9 +1,9 @@
-[submodule "SparkFun-KiCad-Libraries"]
-	path = SparkFun-KiCad-Libraries
+[submodule "PCB/SparkFun-KiCad-Libraries"]
+	path = PCB/SparkFun-KiCad-Libraries
 	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries.git
-[submodule "digikey-kicad-library"]
-	path = digikey-kicad-library
+[submodule "PCB/digikey-kicad-library"]
+	path = PCB/digikey-kicad-library
 	url = https://github.com/digikey/digikey-kicad-library.git
-[submodule "galactose-kicad-library"]
-	path = galactose-kicad-library
-	url = https://craigburden@bitbucket.org/craigburden/galactose-kicad-library.git
+[submodule "PCB/galactose-kicad-library"]
+	path = PCB/galactose-kicad-library
+	url = git@bitbucket.org:craigburden/galactose-kicad-library.git
