@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 22
+Sheet 19 22
 Title ""
 Date ""
 Rev ""
@@ -166,4 +166,20 @@ F 3 "" H 5650 3600 50  0001 C CNN
 	1    5650 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9CD684
+P 6100 3900
+AR Path="/5E9CD684" Ref="TP?"  Part="1" 
+AR Path="/5E8CBD7F/5E9CD684" Ref="TP?"  Part="1" 
+F 0 "TP?" V 6054 4088 50  0000 L CNN
+F 1 "OUT" V 6145 4088 50  0000 L CNN
+F 2 "" H 6300 3900 50  0001 C CNN
+F 3 "~" H 6300 3900 50  0001 C CNN
+	1    6100 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 3900 6050 3900
+Connection ~ 6050 3900
 $EndSCHEMATC

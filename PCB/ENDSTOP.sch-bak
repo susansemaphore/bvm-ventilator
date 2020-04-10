@@ -135,4 +135,19 @@ F 3 "" H 6150 3600 50  0001 C CNN
 	1    6150 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9CF62E
+P 6650 3850
+AR Path="/5E9CF62E" Ref="TP?"  Part="1" 
+AR Path="/5E89F314/5E9CF62E" Ref="TP?"  Part="1" 
+F 0 "TP?" H 6708 3968 50  0000 L CNN
+F 1 "OUT" H 6708 3877 50  0000 L CNN
+F 2 "" H 6850 3850 50  0001 C CNN
+F 3 "~" H 6850 3850 50  0001 C CNN
+	1    6650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3850 6650 3900
 $EndSCHEMATC

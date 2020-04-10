@@ -72,7 +72,7 @@ F 3 "" H 4900 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 4450 5100 4450
-Text HLabel 4800 4450 0    50   Input ~ 0
+Text HLabel 4700 4450 0    50   Input ~ 0
 ENABLE
 $Comp
 L power:+5V #PWR?
@@ -87,4 +87,24 @@ F 3 "" H 5400 3800 50  0001 C CNN
 	1    5400 3800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9C0ADF
+P 4750 4550
+AR Path="/5E9C0ADF" Ref="TP?"  Part="1" 
+AR Path="/5E8EB699/5E9C0ADF" Ref="TP?"  Part="1" 
+F 0 "TP?" H 4692 4576 50  0000 R CNN
+F 1 "ENABLE" H 4692 4667 50  0000 R CNN
+F 2 "" H 4950 4550 50  0001 C CNN
+F 3 "~" H 4950 4550 50  0001 C CNN
+	1    4750 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 4450 4750 4450
+Wire Wire Line
+	4750 4550 4750 4450
+Connection ~ 4750 4450
+Wire Wire Line
+	4750 4450 4800 4450
 $EndSCHEMATC

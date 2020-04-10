@@ -437,4 +437,16 @@ F 3 "~" H 8600 4450 50  0001 C CNN
 	1    8400 4450
 	0    1    1    0   
 $EndComp
+Text Label 8400 3650 2    50   ~ 0
+3V3
+Text Label 8400 3850 2    50   ~ 0
+5V
+Text Label 8400 4050 2    50   ~ 0
+12V
+Text Label 8400 4250 2    50   ~ 0
+15V
+Text Label 4750 3200 0    50   ~ 0
+VBATT
+Text Label 8400 4450 2    50   ~ 0
+VBATT
 $EndSCHEMATC

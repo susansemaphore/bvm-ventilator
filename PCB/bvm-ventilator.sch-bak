@@ -404,15 +404,79 @@ Wire Notes Line
 	4550 3550 4550 2950
 Text Notes 4550 2950 0    79   ~ 0
 Misc.
+Text Label 9250 1900 2    50   ~ 0
+SDA
+Text Label 9250 2100 2    50   ~ 0
+SCL
+Text Label 8400 2100 2    50   ~ 0
+STEPPER_STEP
+Text Label 8400 2300 2    50   ~ 0
+STEPPER_DIR
+Text Label 8400 1900 2    50   ~ 0
+~STEPPER_ENABLE
 $Comp
-L Connector:TestPoint TP1
-U 1 1 5E923993
-P 8600 3100
-F 0 "TP1" H 8658 3218 50  0000 L CNN
-F 1 "TestPoint" H 8658 3127 50  0000 L CNN
-F 2 "" H 8800 3100 50  0001 C CNN
-F 3 "~" H 8800 3100 50  0001 C CNN
-	1    8600 3100
-	1    0    0    -1  
+L Connector:TestPoint TP?
+U 1 1 5E9B874A
+P 8400 1900
+F 0 "TP?" V 8348 2088 50  0000 L CNN
+F 1 "~STEP_ENABLE" V 8446 2088 50  0000 L CNN
+F 2 "" H 8600 1900 50  0001 C CNN
+F 3 "~" H 8600 1900 50  0001 C CNN
+	1    8400 1900
+	0    1    1    0   
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9B88D9
+P 8400 2100
+F 0 "TP?" V 8354 2288 50  0000 L CNN
+F 1 "STEP" V 8445 2288 50  0000 L CNN
+F 2 "" H 8600 2100 50  0001 C CNN
+F 3 "~" H 8600 2100 50  0001 C CNN
+	1    8400 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9B8AC5
+P 8400 2300
+F 0 "TP?" V 8354 2488 50  0000 L CNN
+F 1 "STEP_DIR" V 8445 2488 50  0000 L CNN
+F 2 "" H 8600 2300 50  0001 C CNN
+F 3 "~" H 8600 2300 50  0001 C CNN
+	1    8400 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9BDEC3
+P 9250 1900
+F 0 "TP?" V 9204 2088 50  0000 L CNN
+F 1 "SDA" V 9295 2088 50  0000 L CNN
+F 2 "" H 9450 1900 50  0001 C CNN
+F 3 "~" H 9450 1900 50  0001 C CNN
+	1    9250 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9BE027
+P 9250 2100
+F 0 "TP?" V 9204 2288 50  0000 L CNN
+F 1 "SCL" V 9295 2288 50  0000 L CNN
+F 2 "" H 9450 2100 50  0001 C CNN
+F 3 "~" H 9450 2100 50  0001 C CNN
+	1    9250 2100
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	7700 1750 9650 1750
+Wire Notes Line
+	9650 1750 9650 2450
+Wire Notes Line
+	9650 2450 7700 2450
+Wire Notes Line
+	7700 2450 7700 1750
+Text Notes 7700 1750 0    79   ~ 0
+Test Points
 $EndSCHEMATC
