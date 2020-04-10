@@ -472,89 +472,41 @@ Text Label 8600 4200 2    50   ~ 0
 MS2
 $Comp
 L Connector:TestPoint TP?
-U 1 1 5E9970FA
-P 7400 5150
-AR Path="/5E9970FA" Ref="TP?"  Part="1" 
-AR Path="/5E8A6686/5E9970FA" Ref="TP6"  Part="1" 
-AR Path="/5E8813FF/5E9970FA" Ref="TP24"  Part="1" 
-F 0 "TP6" V 7607 5222 50  0000 C CNN
-F 1 "~RESET" V 7509 5222 50  0000 C CNN
-F 2 "" H 7600 5150 50  0001 C CNN
-F 3 "~" H 7600 5150 50  0001 C CNN
-	1    7400 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E9975F2
-P 7400 5450
-AR Path="/5E9975F2" Ref="TP?"  Part="1" 
-AR Path="/5E8A6686/5E9975F2" Ref="TP7"  Part="1" 
-AR Path="/5E8813FF/5E9975F2" Ref="TP25"  Part="1" 
-F 0 "TP7" V 7607 5522 50  0000 C CNN
-F 1 "~SLEEP" V 7509 5522 50  0000 C CNN
-F 2 "" H 7600 5450 50  0001 C CNN
-F 3 "~" H 7600 5450 50  0001 C CNN
-	1    7400 5450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E998E5E
-P 7400 5800
-AR Path="/5E998E5E" Ref="TP?"  Part="1" 
-AR Path="/5E8A6686/5E998E5E" Ref="TP8"  Part="1" 
-AR Path="/5E8813FF/5E998E5E" Ref="TP26"  Part="1" 
-F 0 "TP8" V 7607 5872 50  0000 C CNN
-F 1 "~FAULT" V 7509 5872 50  0000 C CNN
-F 2 "" H 7600 5800 50  0001 C CNN
-F 3 "~" H 7600 5800 50  0001 C CNN
-	1    7400 5800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
 U 1 1 5E998E64
-P 7400 6100
+P 9100 4950
 AR Path="/5E998E64" Ref="TP?"  Part="1" 
 AR Path="/5E8A6686/5E998E64" Ref="TP9"  Part="1" 
 AR Path="/5E8813FF/5E998E64" Ref="TP27"  Part="1" 
-F 0 "TP9" V 7607 6172 50  0000 C CNN
-F 1 "~HOME" V 7509 6172 50  0000 C CNN
-F 2 "" H 7600 6100 50  0001 C CNN
-F 3 "~" H 7600 6100 50  0001 C CNN
-	1    7400 6100
+F 0 "TP9" V 9307 5022 50  0000 C CNN
+F 1 "~HOME" V 9209 5022 50  0000 C CNN
+F 2 "" H 9300 4950 50  0001 C CNN
+F 3 "~" H 9300 4950 50  0001 C CNN
+	1    9100 4950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5E99966E
-P 7400 6400
+P 9100 5250
 AR Path="/5E99966E" Ref="TP?"  Part="1" 
 AR Path="/5E8A6686/5E99966E" Ref="TP10"  Part="1" 
 AR Path="/5E8813FF/5E99966E" Ref="TP28"  Part="1" 
-F 0 "TP10" V 7595 6472 50  0000 C CNN
-F 1 "DECAY" V 7504 6472 50  0000 C CNN
-F 2 "" H 7600 6400 50  0001 C CNN
-F 3 "~" H 7600 6400 50  0001 C CNN
-	1    7400 6400
+F 0 "TP10" V 9295 5322 50  0000 C CNN
+F 1 "DECAY" V 9204 5322 50  0000 C CNN
+F 2 "" H 9300 5250 50  0001 C CNN
+F 3 "~" H 9300 5250 50  0001 C CNN
+	1    9100 5250
 	0    -1   -1   0   
 $EndComp
 Text Label 9400 4200 0    50   ~ 0
 ~FAULT
-Text Label 7400 5800 0    50   ~ 0
-~FAULT
-Text Label 7400 5450 0    50   ~ 0
-~SLEEP
-Text Label 7400 5150 0    50   ~ 0
-~RESET
 Text Label 9400 4300 0    50   ~ 0
 ~HOME
 Text Label 9400 4400 0    50   ~ 0
 DECAY
-Text Label 7400 6400 0    50   ~ 0
+Text Label 9100 5250 0    50   ~ 0
 DECAY
-Text Label 7400 6100 0    50   ~ 0
+Text Label 9100 4950 0    50   ~ 0
 ~HOME
 Text Label 6350 4200 0    50   ~ 0
 ~FAULT
