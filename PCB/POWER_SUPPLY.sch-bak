@@ -372,4 +372,69 @@ Text Label 8500 2350 1    50   ~ 0
 5V
 Text Label 6200 2400 2    50   ~ 0
 5V
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9A7893
+P 8400 3650
+AR Path="/5E9A7893" Ref="TP?"  Part="1" 
+AR Path="/5E880E11/5E9A7893" Ref="TP?"  Part="1" 
+F 0 "TP?" V 8354 3838 50  0000 L CNN
+F 1 "3V3" V 8445 3838 50  0000 L CNN
+F 2 "" H 8600 3650 50  0001 C CNN
+F 3 "~" H 8600 3650 50  0001 C CNN
+	1    8400 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9A813E
+P 8400 3850
+AR Path="/5E9A813E" Ref="TP?"  Part="1" 
+AR Path="/5E880E11/5E9A813E" Ref="TP?"  Part="1" 
+F 0 "TP?" V 8354 4038 50  0000 L CNN
+F 1 "5V" V 8445 4038 50  0000 L CNN
+F 2 "" H 8600 3850 50  0001 C CNN
+F 3 "~" H 8600 3850 50  0001 C CNN
+	1    8400 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9A8480
+P 8400 4050
+AR Path="/5E9A8480" Ref="TP?"  Part="1" 
+AR Path="/5E880E11/5E9A8480" Ref="TP?"  Part="1" 
+F 0 "TP?" V 8354 4238 50  0000 L CNN
+F 1 "12V" V 8445 4238 50  0000 L CNN
+F 2 "" H 8600 4050 50  0001 C CNN
+F 3 "~" H 8600 4050 50  0001 C CNN
+	1    8400 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9A87D2
+P 8400 4250
+AR Path="/5E9A87D2" Ref="TP?"  Part="1" 
+AR Path="/5E880E11/5E9A87D2" Ref="TP?"  Part="1" 
+F 0 "TP?" V 8354 4438 50  0000 L CNN
+F 1 "15V" V 8445 4438 50  0000 L CNN
+F 2 "" H 8600 4250 50  0001 C CNN
+F 3 "~" H 8600 4250 50  0001 C CNN
+	1    8400 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9A9A9D
+P 8400 4450
+AR Path="/5E9A9A9D" Ref="TP?"  Part="1" 
+AR Path="/5E880E11/5E9A9A9D" Ref="TP?"  Part="1" 
+F 0 "TP?" V 8354 4638 50  0000 L CNN
+F 1 "VBATT" V 8445 4638 50  0000 L CNN
+F 2 "" H 8600 4450 50  0001 C CNN
+F 3 "~" H 8600 4450 50  0001 C CNN
+	1    8400 4450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
