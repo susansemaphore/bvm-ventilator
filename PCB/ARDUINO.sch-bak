@@ -40,96 +40,20 @@ F 3 "" H 2100 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y?
-U 1 1 5E88BF03
-P 4450 3950
-AR Path="/5E88BF03" Ref="Y?"  Part="1" 
-AR Path="/5E880AC6/5E88BF03" Ref="Y1"  Part="1" 
-F 0 "Y1" V 4404 4081 50  0000 L CNN
-F 1 "16MHz" V 4495 4081 50  0000 L CNN
-F 2 "" H 4450 3950 50  0001 C CNN
-F 3 "" H 4450 3950 50  0001 C CNN
-	1    4450 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E88BF09
-P 4100 4150
-AR Path="/5E88BF09" Ref="C?"  Part="1" 
-AR Path="/5E880AC6/5E88BF09" Ref="C3"  Part="1" 
-F 0 "C3" V 3871 4150 50  0000 C CNN
-F 1 "C_Small" V 3962 4150 50  0000 C CNN
-F 2 "" H 4100 4150 50  0001 C CNN
-F 3 "" H 4100 4150 50  0001 C CNN
-F 4 "C0G" H 4100 4150 50  0001 C CNN "Dielectric"
-F 5 "6.3V" H 4100 4150 50  0001 C CNN "Voltage Rating"
-	1    4100 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E88BF0F
-P 4100 3750
-AR Path="/5E88BF0F" Ref="C?"  Part="1" 
-AR Path="/5E880AC6/5E88BF0F" Ref="C2"  Part="1" 
-F 0 "C2" V 3871 3750 50  0000 C CNN
-F 1 "C_Small" V 3962 3750 50  0000 C CNN
-F 2 "" H 4100 3750 50  0001 C CNN
-F 3 "" H 4100 3750 50  0001 C CNN
-F 4 "C0G" H 4100 3750 50  0001 C CNN "Dielectric"
-F 5 "6.3V" H 4100 3750 50  0001 C CNN "Voltage Rating"
-	1    4100 3750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 4150 4450 4150
-Wire Wire Line
-	4450 4150 4450 4100
-Wire Wire Line
-	4450 4150 4850 4150
-Wire Wire Line
-	4850 4150 4850 4050
-Connection ~ 4450 4150
-Wire Wire Line
-	4850 3850 4850 3750
-Wire Wire Line
-	4850 3750 4450 3750
-Wire Wire Line
-	4450 3800 4450 3750
-Connection ~ 4450 3750
-Wire Wire Line
-	4450 3750 4200 3750
-$Comp
 L power:GND #PWR?
 U 1 1 5E88BF1F
-P 3950 4150
+P 4250 3950
 AR Path="/5E88BF1F" Ref="#PWR?"  Part="1" 
 AR Path="/5E880AC6/5E88BF1F" Ref="#PWR010"  Part="1" 
-F 0 "#PWR010" H 3950 3900 50  0001 C CNN
-F 1 "GND" V 3955 4022 50  0000 R CNN
-F 2 "" H 3950 4150 50  0001 C CNN
-F 3 "" H 3950 4150 50  0001 C CNN
-	1    3950 4150
+F 0 "#PWR010" H 4250 3700 50  0001 C CNN
+F 1 "GND" V 4255 3822 50  0000 R CNN
+F 2 "" H 4250 3950 50  0001 C CNN
+F 3 "" H 4250 3950 50  0001 C CNN
+	1    4250 3950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3950 3750 4000 3750
-Wire Wire Line
-	3950 4150 4000 4150
-$Comp
-L power:GND #PWR?
-U 1 1 5E88BF2D
-P 3950 3750
-AR Path="/5E88BF2D" Ref="#PWR?"  Part="1" 
-AR Path="/5E880AC6/5E88BF2D" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 3950 3500 50  0001 C CNN
-F 1 "GND" V 3955 3622 50  0000 R CNN
-F 2 "" H 3950 3750 50  0001 C CNN
-F 3 "" H 3950 3750 50  0001 C CNN
-	1    3950 3750
-	0    1    1    0   
-$EndComp
+	4250 3950 4300 3950
 $Comp
 L power:GND #PWR?
 U 1 1 5E88BF33
@@ -678,4 +602,27 @@ F 3 "" H 9100 3600 50  0001 C CNN
 	1    9100 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Resonator Y?
+U 1 1 5E9074AD
+P 4500 3950
+F 0 "Y?" V 4454 4061 50  0000 L CNN
+F 1 "16MHz" V 4545 4061 50  0000 L CNN
+F 2 "" H 4475 3950 50  0001 C CNN
+F 3 "~" H 4475 3950 50  0001 C CNN
+	1    4500 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 4050 4850 4150
+Wire Wire Line
+	4850 4150 4500 4150
+Wire Wire Line
+	4500 4150 4500 4100
+Wire Wire Line
+	4850 3850 4850 3750
+Wire Wire Line
+	4850 3750 4500 3750
+Wire Wire Line
+	4500 3750 4500 3800
 $EndSCHEMATC
