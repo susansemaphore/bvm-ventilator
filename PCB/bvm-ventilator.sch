@@ -405,10 +405,10 @@ Wire Notes Line
 Text Notes 4550 2950 0    79   ~ 0
 Misc.
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5E923993
 P 4650 1300
-F 0 "TP?" H 4708 1418 50  0000 L CNN
+F 0 "TP1" H 4708 1418 50  0000 L CNN
 F 1 "TestPoint" H 4708 1327 50  0000 L CNN
 F 2 "" H 4850 1300 50  0001 C CNN
 F 3 "~" H 4850 1300 50  0001 C CNN

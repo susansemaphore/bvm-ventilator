@@ -162,11 +162,8 @@ Wire Wire Line
 	5100 3000 5650 3000
 Text HLabel 5150 4150 0    50   Input ~ 0
 ~ENABLE
-NoConn ~ 5150 4250
-NoConn ~ 5150 4350
 Text HLabel 5150 3750 0    50   Input ~ 0
 DIR
-NoConn ~ 5150 3650
 $Comp
 L Device:R_POT RV1
 U 1 1 5E8DF1FC
@@ -285,8 +282,6 @@ Wire Wire Line
 	5750 5050 5750 5100
 Wire Wire Line
 	5650 5050 5650 5100
-NoConn ~ 6150 3650
-NoConn ~ 6150 3750
 $Comp
 L Device:C_Small C15
 U 1 1 5E8E9760
@@ -397,7 +392,7 @@ Wire Wire Line
 	5300 2500 5300 2450
 Text Label 4300 3250 0    50   ~ 0
 3V3
-Text Label 6500 3550 0    50   ~ 0
+Text Label 6150 3550 0    50   ~ 0
 3V3
 Text Label 4500 3450 0    50   ~ 0
 CURRENT_SET
@@ -486,4 +481,31 @@ Text HLabel 5150 3950 0    50   Input ~ 0
 MS1
 Text HLabel 5150 4050 0    50   Input ~ 0
 MS2
+Text HLabel 5150 4350 0    50   Input ~ 0
+~SLEEP
+Text HLabel 5150 4250 0    50   Input ~ 0
+~RESET
+Text HLabel 6150 3650 2    50   Output ~ 0
+~FAULT
+Text HLabel 6150 3750 2    50   Output ~ 0
+~HOME
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E958C53
+P 6600 3550
+AR Path="/5E958C53" Ref="TP?"  Part="1" 
+AR Path="/5E8A6686/5E8D27A6/5E958C53" Ref="TP7"  Part="1" 
+AR Path="/5E8813FF/5E8D27A6/5E958C53" Ref="TP19"  Part="1" 
+F 0 "TP19" V 6554 3738 50  0000 L CNN
+F 1 "3V3" V 6645 3738 50  0000 L CNN
+F 2 "" H 6800 3550 50  0001 C CNN
+F 3 "~" H 6800 3550 50  0001 C CNN
+	1    6600 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 3550 6500 3550
+Connection ~ 6500 3550
+Text HLabel 5150 3650 0    50   Input ~ 0
+DECAY
 $EndSCHEMATC
