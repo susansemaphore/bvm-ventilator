@@ -404,4 +404,15 @@ Wire Notes Line
 	4550 3550 4550 2950
 Text Notes 4550 2950 0    79   ~ 0
 Misc.
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E923993
+P 4650 1300
+F 0 "TP?" H 4708 1418 50  0000 L CNN
+F 1 "TestPoint" H 4708 1327 50  0000 L CNN
+F 2 "" H 4850 1300 50  0001 C CNN
+F 3 "~" H 4850 1300 50  0001 C CNN
+	1    4650 1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
