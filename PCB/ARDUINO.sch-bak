@@ -21,7 +21,7 @@ AR Path="/5E88BEF7" Ref="J?"  Part="1"
 AR Path="/5E880AC6/5E88BEF7" Ref="J2"  Part="1" 
 F 0 "J2" H 1973 3458 45  0000 R CNN
 F 1 "FTDI" H 1973 3542 45  0000 R CNN
-F 2 "" H 2200 3950 20  0001 C CNN
+F 2 "Connectors:FTDI_BASIC" H 2200 3950 20  0001 C CNN
 F 3 "" H 2200 3250 50  0001 C CNN
 	1    2200 3250
 	1    0    0    1   
@@ -34,7 +34,7 @@ AR Path="/5E88BEFD" Ref="J?"  Part="1"
 AR Path="/5E880AC6/5E88BEFD" Ref="J1"  Part="1" 
 F 0 "J1" H 2100 4804 45  0000 C CNN
 F 1 "ICSP" H 2100 4720 45  0000 C CNN
-F 2 "" H 2100 4800 20  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 2100 4800 20  0001 C CNN
 F 3 "" H 2100 4500 50  0001 C CNN
 	1    2100 4500
 	1    0    0    -1  
