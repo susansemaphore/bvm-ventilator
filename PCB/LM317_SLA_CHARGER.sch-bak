@@ -42,6 +42,8 @@ F 4 "Aluminium Film" H 5250 3750 50  0001 C CNN "Dielectric"
 F 5 "16V" H 5250 3750 50  0001 C CNN "Voltage Rating"
 F 6 "General Purpose" H 5250 3750 50  0001 C CNN "Impedance"
 F 7 "1000hr @ 85degC" H 5250 3750 50  0001 C CNN "Lifetime @ Temperature"
+F 8 "EEE-FT1C101AR" H 5250 3750 50  0001 C CNN "MPN"
+F 9 "Panasonic" H 5250 3750 50  0001 C CNN "Manufacturer"
 	1    5250 3750
 	1    0    0    -1  
 $EndComp

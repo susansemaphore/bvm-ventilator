@@ -58,12 +58,13 @@ F 0 "C21" H 6391 4096 50  0000 L CNN
 F 1 "1000uF" H 6391 4005 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x10" H 6300 4050 50  0001 C CNN
 F 3 "" H 6300 4050 50  0001 C CNN
-F 4 "UWT0J102MNL1GS" H 6300 4050 50  0001 C CNN "MPN"
+F 4 "EEE-0JA102UP" H 6300 4050 50  0001 C CNN "MPN"
 F 5 "Power Supply" H 6300 4050 50  0001 C CNN "Functional Block"
 F 6 "Aluminium Film" H -700 -100 50  0001 C CNN "Dielectric"
 F 7 "6.3V" H -700 -100 50  0001 C CNN "Voltage Rating"
 F 8 "General Purpose" H -700 -100 50  0001 C CNN "Impedance"
 F 9 "1000hr @ 85degC" H -700 -100 50  0001 C CNN "Lifetime @ Temperature"
+F 10 "Panasonic" H 6300 4050 50  0001 C CNN "Manufacturer"
 	1    6300 4050
 	1    0    0    -1  
 $EndComp
@@ -327,7 +328,7 @@ F 0 "C20" H 4391 3846 50  0000 L CNN
 F 1 "100uF" H 4391 3755 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 4300 3800 50  0001 C CNN
 F 3 "" H 4300 3800 50  0001 C CNN
-F 4 "EEE-1AA101SP" H 0   0   50  0001 C CNN "MPN"
+F 4 "EEE-FT1C101AR" H 0   0   50  0001 C CNN "MPN"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "Power Supply" H 4300 3800 50  0001 C CNN "Functional Block"
 F 7 "Aluminium Film" H 0   0   50  0001 C CNN "Dielectric"
