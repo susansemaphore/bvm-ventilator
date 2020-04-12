@@ -479,4 +479,8 @@ Wire Notes Line
 	7700 2450 7700 1750
 Text Notes 7700 1750 0    79   ~ 0
 Test Points
+Text Notes 8850 3350 0    79   ~ 0
+FAN!
+Text Notes 8850 3450 0    79   ~ 0
+O2 sensor
 $EndSCHEMATC

@@ -107,10 +107,12 @@ AR Path="/5E8A6686/5E8548E0" Ref="C9"  Part="1"
 AR Path="/5E8813FF/5E8548E0" Ref="C34"  Part="1" 
 F 0 "C34" H 6042 2546 50  0000 L CNN
 F 1 "100uF" H 6042 2455 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H" H 5950 2500 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 5950 2500 50  0001 C CNN
 F 3 "" H 5950 2500 50  0001 C CNN
-F 4 "50V" H 5950 2500 50  0001 C CNN "Voltage Rating"
-F 5 "Tantalum" H 5950 2500 50  0001 C CNN "Dielectric"
+F 4 "16V" H 5950 2500 50  0001 C CNN "Voltage Rating"
+F 5 "Aluminium Film" H 5950 2500 50  0001 C CNN "Dielectric"
+F 6 "General Purpose" H 5950 2500 50  0001 C CNN "Impedance"
+F 7 "1000hr @ 85degC" H 5950 2500 50  0001 C CNN "Lifetime @ Temperature"
 	1    5950 2500
 	1    0    0    -1  
 $EndComp
@@ -244,40 +246,6 @@ F 1 "+5V" H 5265 2523 50  0000 C CNN
 F 2 "" H 5250 2350 50  0001 C CNN
 F 3 "" H 5250 2350 50  0001 C CNN
 	1    5250 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 2650 6350 2600
-$Comp
-L power:GND #PWR036
-U 1 1 5E85775C
-P 6350 2650
-AR Path="/5E8A6686/5E85775C" Ref="#PWR036"  Part="1" 
-AR Path="/5E8813FF/5E85775C" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 6350 2400 50  0001 C CNN
-F 1 "GND" H 6355 2477 50  0000 C CNN
-F 2 "" H 6350 2650 50  0001 C CNN
-F 3 "" H 6350 2650 50  0001 C CNN
-	1    6350 2650
-	1    0    0    -1  
-$EndComp
-Text Label 6350 2400 1    50   ~ 0
-V_MOTOR
-$Comp
-L Device:C_Small C10
-U 1 1 5E857755
-P 6350 2500
-AR Path="/5E8A6686/5E857755" Ref="C10"  Part="1" 
-AR Path="/5E8813FF/5E857755" Ref="C35"  Part="1" 
-F 0 "C35" H 6442 2546 50  0000 L CNN
-F 1 "1000uF" H 6442 2455 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10" H 6350 2500 50  0001 C CNN
-F 3 "" H 6350 2500 50  0001 C CNN
-F 4 "50V" H 6350 2500 50  0001 C CNN "Voltage Rating"
-F 5 "Aluminium Film" H 6350 2500 50  0001 C CNN "Dielectric"
-F 6 "General Purpose" H 6350 2500 50  0001 C CNN "Impedance"
-F 7 "1000hr @ 85degC" H 6350 2500 50  0001 C CNN "Lifetime @ Temperature"
-	1    6350 2500
 	1    0    0    -1  
 $EndComp
 Text Label 5350 3700 2    50   ~ 0
