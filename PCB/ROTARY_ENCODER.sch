@@ -19,8 +19,9 @@ U 1 1 5E8BF4A3
 P 5800 4050
 F 0 "SW3" H 5800 4417 50  0000 C CNN
 F 1 "ENCODER" H 5800 4326 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 5650 4210 50  0001 C CNN
-F 3 "" H 5800 4310 50  0001 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm" H 5650 4210 50  0001 C CNN
+F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Encoders/Datasheets/EN12.pdf" H 5800 4310 50  0001 C CNN
+F 4 "EN12-HS22AF20" H 5800 4050 50  0001 C CNN "MPN"
 	1    5800 4050
 	1    0    0    -1  
 $EndComp
