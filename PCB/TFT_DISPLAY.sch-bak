@@ -18,11 +18,11 @@ Text HLabel 2550 2100 0    50   Input ~ 0
 Text HLabel 2550 2200 0    50   Input ~ 0
 DC
 Text HLabel 2550 2300 0    50   Input ~ 0
-~WRITE
+WRITE
 Text HLabel 1900 2400 0    50   Input ~ 0
-~READ
+READ
 Text HLabel 2550 2500 0    50   Input ~ 0
-~RESET
+RESET
 Text HLabel 2550 4900 0    50   BiDi ~ 0
 DB7
 Text HLabel 2550 4800 0    50   BiDi ~ 0
