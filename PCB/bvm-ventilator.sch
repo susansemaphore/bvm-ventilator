@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 22
+Sheet 1 23
 Title "BVM Ventilator"
 Date ""
 Rev "v1.0.0"
@@ -14,30 +14,30 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6450 3050 850  1300
+S 5850 3050 850  1300
 U 5E880AC6
 F0 "Arduino" 50
 F1 "ARDUINO.sch" 50
-F2 "A0" B L 6450 3150 50 
-F3 "A1" B L 6450 3250 50 
-F4 "A2" B L 6450 3350 50 
-F5 "A3" B L 6450 3450 50 
-F6 "A6" B L 6450 3550 50 
-F7 "A7" B L 6450 3650 50 
-F8 "D2" B R 7300 3150 50 
-F9 "D3" B R 7300 3250 50 
-F10 "D4" B R 7300 3350 50 
-F11 "D5" B R 7300 3450 50 
-F12 "D6" B R 7300 3550 50 
-F13 "D7" B R 7300 3650 50 
-F14 "D8" B R 7300 3750 50 
-F15 "D9" B R 7300 3850 50 
-F16 "D10" B R 7300 3950 50 
-F17 "SDA" B L 6450 3800 50 
-F18 "SCL" B L 6450 3900 50 
-F19 "MISO" I L 6450 4050 50 
-F20 "MOSI" O L 6450 4150 50 
-F21 "SCK" O L 6450 4250 50 
+F2 "A0" B L 5850 3150 50 
+F3 "A1" B L 5850 3250 50 
+F4 "A2" B L 5850 3350 50 
+F5 "A3" B L 5850 3450 50 
+F6 "A6" B L 5850 3550 50 
+F7 "A7" B L 5850 3650 50 
+F8 "D2" B R 6700 3150 50 
+F9 "D3" B R 6700 3250 50 
+F10 "D4" B R 6700 3350 50 
+F11 "D5" B R 6700 3450 50 
+F12 "D6" B R 6700 3550 50 
+F13 "D7" B R 6700 3650 50 
+F14 "D8" B R 6700 3750 50 
+F15 "D9" B R 6700 3850 50 
+F16 "D10" B R 6700 3950 50 
+F17 "SDA" B L 5850 3800 50 
+F18 "SCL" B L 5850 3900 50 
+F19 "MISO" I L 5850 4050 50 
+F20 "MOSI" O L 5850 4150 50 
+F21 "SCK" O L 5850 4250 50 
 $EndSheet
 $Sheet
 S 3100 4000 850  500 
@@ -104,13 +104,13 @@ F4 "DIR" I R 3950 5150 50
 F5 "~ENABLE" I R 3950 4850 50 
 $EndSheet
 $Sheet
-S 4650 3100 550  300 
+S 8450 2800 550  300 
 U 5E87171F
 F0 "RTC" 50
 F1 "RTC.sch" 50
-F2 "SDA" B R 5200 3200 50 
-F3 "SCL" I R 5200 3300 50 
-F4 "~INT" O L 4650 3200 50 
+F2 "SDA" B R 9000 2900 50 
+F3 "SCL" I R 9000 3000 50 
+F4 "~INT" O L 8450 2900 50 
 $EndSheet
 $Sheet
 S 3450 5550 500  200 
@@ -119,9 +119,9 @@ F0 "Limit Switch" 50
 F1 "ENDSTOP.sch" 50
 F2 "OUTPUT" O R 3950 5650 50 
 $EndSheet
-Text Label 6450 3800 2    50   ~ 0
+Text Label 5850 3800 2    50   ~ 0
 SDA
-Text Label 6450 3900 2    50   ~ 0
+Text Label 5850 3900 2    50   ~ 0
 SCL
 Text Label 7350 5400 0    50   ~ 0
 SDA
@@ -131,9 +131,9 @@ Text Label 3400 2800 0    50   ~ 0
 SDA
 Text Label 3400 2900 0    50   ~ 0
 SCL
-Text Label 5200 3200 0    50   ~ 0
+Text Label 9000 2900 0    50   ~ 0
 SDA
-Text Label 5200 3300 0    50   ~ 0
+Text Label 9000 3000 0    50   ~ 0
 SCL
 Text Label 3950 4300 0    50   ~ 0
 STEPPER_STEP
@@ -143,22 +143,22 @@ Text Label 3950 5050 0    50   ~ 0
 STEPPER_STEP
 Text Label 3950 5150 0    50   ~ 0
 STEPPER_DIR
-Text Label 7300 3850 0    50   ~ 0
+Text Label 6700 3850 0    50   ~ 0
 STEPPER_STEP
-Text Label 7300 3950 0    50   ~ 0
+Text Label 6700 3950 0    50   ~ 0
 STEPPER_DIR
 Text Label 7350 4950 0    50   ~ 0
 BUZZ_ENABLE
-Text Label 6450 3150 2    50   ~ 0
+Text Label 5850 3150 2    50   ~ 0
 BUZZ_ENABLE
-NoConn ~ 4650 3200
-Text Label 7300 3650 0    50   ~ 0
+NoConn ~ 8450 2900
+Text Label 6700 3650 0    50   ~ 0
 LIMIT_SWITCH
 Text Label 3950 5650 0    50   ~ 0
 LIMIT_SWITCH
 Text Label 3950 4850 0    50   ~ 0
 ~STEPPER_ENABLE
-Text Label 6450 3250 2    50   ~ 0
+Text Label 5850 3250 2    50   ~ 0
 VBATT_SENSE
 $Sheet
 S 5050 4850 550  400 
@@ -175,11 +175,11 @@ Text Label 5600 5050 0    50   ~ 0
 ROTARY_ENCODER_B
 Text Label 5600 5150 0    50   ~ 0
 ROTARY_ENCODER_BUTTON
-Text Label 7300 3350 0    50   ~ 0
+Text Label 6700 3350 0    50   ~ 0
 ROTARY_ENCODER_A
-Text Label 7300 3450 0    50   ~ 0
+Text Label 6700 3450 0    50   ~ 0
 ROTARY_ENCODER_B
-Text Label 7300 3550 0    50   ~ 0
+Text Label 6700 3550 0    50   ~ 0
 ROTARY_ENCODER_BUTTON
 $Sheet
 S 5050 5500 550  200 
@@ -190,11 +190,11 @@ F2 "OUT" O R 5600 5600 50
 $EndSheet
 Text Label 5600 5600 0    50   ~ 0
 BUTTON_1
-Text Label 6450 3450 2    50   ~ 0
+Text Label 5850 3450 2    50   ~ 0
 BUTTON_1
 Text Label 3950 4100 0    50   ~ 0
 ~STEPPER_ENABLE
-Text Label 7300 3750 0    50   ~ 0
+Text Label 6700 3750 0    50   ~ 0
 ~STEPPER_ENABLE
 $Comp
 L power:+12V #PWR03
@@ -266,9 +266,9 @@ Text Label 3950 6100 0    50   ~ 0
 LINEAR_ENCODER_A
 Text Label 3950 6200 0    50   ~ 0
 LINEAR_ENCODER_B
-Text Label 7300 3150 0    50   ~ 0
+Text Label 6700 3150 0    50   ~ 0
 LINEAR_ENCODER_A
-Text Label 7300 3250 0    50   ~ 0
+Text Label 6700 3250 0    50   ~ 0
 LINEAR_ENCODER_B
 $Sheet
 S 2850 1900 550  300 
@@ -287,7 +287,7 @@ F2 "OUTPUT" O R 3400 3350 50
 $EndSheet
 Text Label 3400 3350 0    50   ~ 0
 DIFF_PRESSURE_SENSE
-Text Label 6450 3350 2    50   ~ 0
+Text Label 5850 3350 2    50   ~ 0
 DIFF_PRESSURE_SENSE
 Text Label 3400 2000 0    50   ~ 0
 SDA
@@ -317,13 +317,13 @@ Wire Notes Line
 Wire Notes Line
 	4750 3850 2750 3850
 Wire Notes Line
-	5550 2900 5550 4500
+	4950 2900 4950 4500
 Wire Notes Line
-	5550 4500 8350 4500
+	4950 4500 7750 4500
 Wire Notes Line
-	8350 4500 8350 2900
+	7750 4500 7750 2900
 Wire Notes Line
-	8350 2900 5550 2900
+	7750 2900 4950 2900
 Wire Notes Line
 	2750 1750 2750 3600
 Wire Notes Line
@@ -332,15 +332,15 @@ Wire Notes Line
 	4300 3600 4300 1750
 Wire Notes Line
 	4300 1750 2750 1750
-Text Label 6450 4050 2    50   ~ 0
+Text Label 5850 4050 2    50   ~ 0
 MISO
-Text Label 6450 4150 2    50   ~ 0
+Text Label 5850 4150 2    50   ~ 0
 MOSI
-Text Label 6450 4250 2    50   ~ 0
+Text Label 5850 4250 2    50   ~ 0
 SCK
-Text Label 6450 3650 2    50   ~ 0
+Text Label 5850 3650 2    50   ~ 0
 DISPLAY_CS
-Text Label 6450 3550 2    50   ~ 0
+Text Label 5850 3550 2    50   ~ 0
 DISPLAY_DC
 Text Label 6800 5700 2    50   ~ 0
 DISPLAY_DC
@@ -362,7 +362,7 @@ Wire Notes Line
 	7900 4700 4950 4700
 Text Notes 2750 3850 0    79   ~ 0
 Motion Control
-Text Notes 5550 2900 0    79   ~ 0
+Text Notes 4950 2900 0    79   ~ 0
 MCU
 Text Notes 2750 1750 0    79   ~ 0
 Environmental Sensing
@@ -395,14 +395,14 @@ Wire Notes Line
 Text Notes 4450 1750 0    79   ~ 0
 Power Supply
 Wire Notes Line
-	4550 2950 5400 2950
+	7900 2650 9500 2650
 Wire Notes Line
-	5400 2950 5400 3550
+	9500 2650 9500 3850
 Wire Notes Line
-	5400 3550 4550 3550
+	9500 3850 7900 3850
 Wire Notes Line
-	4550 3550 4550 2950
-Text Notes 4550 2950 0    79   ~ 0
+	7900 3850 7900 2650
+Text Notes 7900 2650 0    79   ~ 0
 Misc.
 Text Label 9250 1900 2    50   ~ 0
 SDA
@@ -479,8 +479,13 @@ Wire Notes Line
 	7700 2450 7700 1750
 Text Notes 7700 1750 0    79   ~ 0
 Test Points
-Text Notes 8850 3350 0    79   ~ 0
-FAN!
-Text Notes 8850 3450 0    79   ~ 0
-O2 sensor
+$Sheet
+S 8450 3350 600  200 
+U 5E976232
+F0 "Fan" 50
+F1 "FAN_CONTROLLER.sch" 50
+F2 "CTRL" I L 8450 3450 50 
+$EndSheet
+Text Label 8450 3450 2    50   ~ 0
+FAN_CONTROL
 $EndSCHEMATC
