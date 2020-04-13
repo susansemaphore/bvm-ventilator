@@ -14,21 +14,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J11
 U 1 1 5E9765E9
 P 6350 3800
-F 0 "J?" H 6378 3776 50  0000 L CNN
+F 0 "J11" H 6378 3776 50  0000 L CNN
 F 1 "FAN" H 6378 3685 50  0000 L CNN
-F 2 "" H 6350 3800 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6350 3800 50  0001 C CNN
 F 3 "~" H 6350 3800 50  0001 C CNN
 	1    6350 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:MMBT4401-7-F Q?
+L dk_Transistors-Bipolar-BJT-Single:MMBT4401-7-F Q4
 U 1 1 5E977513
 P 6000 4150
-F 0 "Q?" H 6188 4203 60  0000 L CNN
+F 0 "Q4" H 6188 4203 60  0000 L CNN
 F 1 "MMBT4401-7-F" H 6188 4097 60  0000 L CNN
 F 2 "digikey-footprints:SOT-23-3" H 6200 4350 60  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30039.pdf" H 6200 4450 60  0001 L CNN
@@ -49,12 +49,12 @@ Wire Wire Line
 Wire Wire Line
 	6100 3900 6150 3900
 $Comp
-L Device:R_Small R?
+L Device:R_Small R39
 U 1 1 5E978755
 P 5650 4150
-F 0 "R?" V 5454 4150 50  0000 C CNN
+F 0 "R39" V 5454 4150 50  0000 C CNN
 F 1 "1k" V 5545 4150 50  0000 C CNN
-F 2 "" H 5650 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5650 4150 50  0001 C CNN
 F 3 "~" H 5650 4150 50  0001 C CNN
 	1    5650 4150
 	0    1    1    0   
@@ -62,10 +62,10 @@ $EndComp
 Wire Wire Line
 	5750 4150 5800 4150
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0101
 U 1 1 5E979D45
 P 6100 3750
-F 0 "#PWR?" H 6100 3600 50  0001 C CNN
+F 0 "#PWR0101" H 6100 3600 50  0001 C CNN
 F 1 "+12V" H 6115 3923 50  0000 C CNN
 F 2 "" H 6100 3750 50  0001 C CNN
 F 3 "" H 6100 3750 50  0001 C CNN
@@ -77,10 +77,10 @@ Wire Wire Line
 Wire Wire Line
 	6100 3800 6150 3800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0154
 U 1 1 5E97A0B6
 P 6100 4400
-F 0 "#PWR?" H 6100 4150 50  0001 C CNN
+F 0 "#PWR0154" H 6100 4150 50  0001 C CNN
 F 1 "GND" H 6105 4227 50  0000 C CNN
 F 2 "" H 6100 4400 50  0001 C CNN
 F 3 "" H 6100 4400 50  0001 C CNN

@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 23
-Title "BVM Ventilator"
+Title "ResQVenT"
 Date ""
 Rev "v1.0.0"
 Comp ""
