@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5450 3050 850  500 
+S 5450 3050 850  550 
 U 5E8A6686
 F0 "Stepper Driver 1" 50
 F1 "STEPPER_DRIVER.sch" 50
@@ -22,6 +22,9 @@ F2 "V_MOTOR" I L 5450 3150 50
 F3 "STEP" I R 6300 3350 50 
 F4 "DIR" I R 6300 3450 50 
 F5 "~ENABLE" I R 6300 3150 50 
+F6 "MS0" I L 5450 3300 50 
+F7 "MS1" I L 5450 3400 50 
+F8 "MS2" I L 5450 3500 50 
 $EndSheet
 $Sheet
 S 9150 3900 550  200 
@@ -53,8 +56,6 @@ F3 "EOC" O R 5750 1700 50
 F4 "SCL" I R 5750 1950 50 
 F5 "SDA" I R 5750 1850 50 
 $EndSheet
-NoConn ~ 5750 1600
-NoConn ~ 5750 1700
 $Sheet
 S 7950 1000 1200 600 
 U 5E880E11
@@ -68,7 +69,7 @@ F6 "3V3" O R 9150 1300 50
 F7 "5V" I R 9150 1200 50 
 $EndSheet
 $Sheet
-S 5450 3800 850  500 
+S 5450 3800 850  550 
 U 5E8813FF
 F0 "Stepper Driver 2" 50
 F1 "STEPPER_DRIVER.sch" 50
@@ -76,6 +77,9 @@ F2 "V_MOTOR" I L 5450 3900 50
 F3 "STEP" I R 6300 4100 50 
 F4 "DIR" I R 6300 4200 50 
 F5 "~ENABLE" I R 6300 3900 50 
+F6 "MS0" I L 5450 4050 50 
+F7 "MS1" I L 5450 4150 50 
+F8 "MS2" I L 5450 4250 50 
 $EndSheet
 $Sheet
 S 7800 2100 550  300 
@@ -93,9 +97,9 @@ F0 "Limit Switch" 50
 F1 "ENDSTOP.sch" 50
 F2 "OUTPUT" O R 6300 4700 50 
 $EndSheet
-Text Label 1400 3500 2    50   ~ 0
+Text Label 1750 4400 2    50   ~ 0
 SDA
-Text Label 1400 3600 2    50   ~ 0
+Text Label 1750 4500 2    50   ~ 0
 SCL
 Text Label 9700 4450 0    50   ~ 0
 SDA
@@ -110,29 +114,24 @@ SDA
 Text Label 8350 2300 0    50   ~ 0
 SCL
 Text Label 6300 3350 0    50   ~ 0
-STEPPER_STEP
+STEPPER_1_STEP
 Text Label 6300 3450 0    50   ~ 0
-STEPPER_DIR
+STEPPER_1_DIR
 Text Label 6300 4100 0    50   ~ 0
-STEPPER_STEP
+STEPPER_2_STEP
 Text Label 6300 4200 0    50   ~ 0
-STEPPER_DIR
-Text Label 3050 3750 0    50   ~ 0
-STEPPER_STEP
-Text Label 3050 3850 0    50   ~ 0
-STEPPER_DIR
+STEPPER_2_DIR
 Text Label 9700 4000 0    50   ~ 0
 BUZZ_ENABLE
-Text Label 1400 2850 2    50   ~ 0
+Text Label 1500 5650 2    50   ~ 0
 BUZZ_ENABLE
-NoConn ~ 7800 2200
-Text Label 3050 3550 0    50   ~ 0
+Text Label 1750 5900 0    50   ~ 0
 LIMIT_SWITCH
 Text Label 6300 4700 0    50   ~ 0
 LIMIT_SWITCH
 Text Label 6300 3900 0    50   ~ 0
-~STEPPER_ENABLE
-Text Label 1750 1250 2    50   ~ 0
+~STEPPER_2_ENABLE
+Text Label 1500 5400 2    50   ~ 0
 VBATT_SENSE
 $Sheet
 S 7400 3900 550  400 
@@ -149,11 +148,11 @@ Text Label 7950 4100 0    50   ~ 0
 ROTARY_ENCODER_B
 Text Label 7950 4200 0    50   ~ 0
 ROTARY_ENCODER_BUTTON
-Text Label 3050 3250 0    50   ~ 0
+Text Label 1750 5600 0    50   ~ 0
 ROTARY_ENCODER_A
-Text Label 3050 3350 0    50   ~ 0
+Text Label 1750 5700 0    50   ~ 0
 ROTARY_ENCODER_B
-Text Label 3050 3450 0    50   ~ 0
+Text Label 1750 5800 0    50   ~ 0
 ROTARY_ENCODER_BUTTON
 $Sheet
 S 7400 4550 550  200 
@@ -164,12 +163,10 @@ F2 "OUT" O R 7950 4650 50
 $EndSheet
 Text Label 7950 4650 0    50   ~ 0
 BUTTON_1
-Text Label 1400 2950 2    50   ~ 0
+Text Label 1500 5750 2    50   ~ 0
 BUTTON_1
 Text Label 6300 3150 0    50   ~ 0
-~STEPPER_ENABLE
-Text Label 3050 3650 0    50   ~ 0
-~STEPPER_ENABLE
+~STEPPER_1_ENABLE
 $Comp
 L power:+12V #PWR03
 U 1 1 5E983996
@@ -240,9 +237,9 @@ Text Label 6300 5150 0    50   ~ 0
 LINEAR_ENCODER_A
 Text Label 6300 5250 0    50   ~ 0
 LINEAR_ENCODER_B
-Text Label 3050 3050 0    50   ~ 0
+Text Label 1750 5400 0    50   ~ 0
 LINEAR_ENCODER_A
-Text Label 3050 3150 0    50   ~ 0
+Text Label 1750 5500 0    50   ~ 0
 LINEAR_ENCODER_B
 $Sheet
 S 5200 950  550  300 
@@ -261,7 +258,7 @@ F2 "OUTPUT" O R 5750 2400 50
 $EndSheet
 Text Label 5750 2400 0    50   ~ 0
 DIFF_PRESSURE_SENSE
-Text Label 1750 1350 2    50   ~ 0
+Text Label 1500 5500 2    50   ~ 0
 DIFF_PRESSURE_SENSE
 Text Label 5750 1050 0    50   ~ 0
 SDA
@@ -283,17 +280,17 @@ Wire Wire Line
 Wire Wire Line
 	9450 1200 9450 1050
 Wire Notes Line
-	5100 2900 5100 5500
+	4800 2900 4800 5500
 Wire Notes Line
-	5100 5500 7100 5500
+	4800 5500 7100 5500
 Wire Notes Line
 	7100 5500 7100 2900
 Wire Notes Line
-	7100 2900 5100 2900
+	7100 2900 4800 2900
 Wire Notes Line
-	850  1000 850  2600
+	850  1000 850  5100
 Wire Notes Line
-	3650 2600 3650 1000
+	3650 5100 3650 1000
 Wire Notes Line
 	3650 1000 850  1000
 Wire Notes Line
@@ -304,15 +301,15 @@ Wire Notes Line
 	6650 2650 6650 800 
 Wire Notes Line
 	6650 800  5100 800 
-Text Label 1400 3750 2    50   ~ 0
+Text Label 1750 4650 2    50   ~ 0
 MISO
-Text Label 1400 3850 2    50   ~ 0
+Text Label 1750 4750 2    50   ~ 0
 MOSI
-Text Label 1400 3950 2    50   ~ 0
+Text Label 1750 4850 2    50   ~ 0
 SCK
-Text Label 1400 3350 2    50   ~ 0
+Text Label 1500 6150 2    50   ~ 0
 DISPLAY_CS
-Text Label 1400 3250 2    50   ~ 0
+Text Label 1500 6050 2    50   ~ 0
 DISPLAY_DC
 Text Label 9150 4750 2    50   ~ 0
 DISPLAY_DC
@@ -325,14 +322,14 @@ MOSI
 Text Label 9150 4550 2    50   ~ 0
 SCK
 Wire Notes Line
-	7300 3750 7300 5100
+	7300 3750 7300 5850
 Wire Notes Line
-	7300 5100 10250 5100
+	7300 5850 10250 5850
 Wire Notes Line
-	10250 5100 10250 3750
+	10250 5850 10250 3750
 Wire Notes Line
 	10250 3750 7300 3750
-Text Notes 5100 2900 0    79   ~ 0
+Text Notes 4800 2900 0    79   ~ 0
 Motion Control
 Text Notes 850  1000 0    50   ~ 0
 MCU
@@ -534,4 +531,89 @@ F67 "D48" B L 1750 3650 50
 F68 "D49" B L 1750 3750 50 
 F69 "D53" B L 1750 3850 50 
 $EndSheet
+Wire Notes Line
+	3650 5100 850  5100
+Text Label 7800 2200 2    50   ~ 0
+~RTC_INT
+Text Label 1700 6600 2    50   ~ 0
+~RTC_INT
+Text Label 2200 6450 0    50   ~ 0
+STEPPER_1_STEP
+Text Label 2200 6550 0    50   ~ 0
+STEPPER_1_DIR
+Text Label 2200 7200 0    50   ~ 0
+STEPPER_2_STEP
+Text Label 2200 7300 0    50   ~ 0
+STEPPER_2_DIR
+Text Label 2200 7000 0    50   ~ 0
+~STEPPER_2_ENABLE
+Text Label 2200 6250 0    50   ~ 0
+~STEPPER_1_ENABLE
+Text Label 5450 3300 2    50   ~ 0
+STEPPER_1_MS0
+Text Label 5450 3400 2    50   ~ 0
+STEPPER_1_MS1
+Text Label 5450 3500 2    50   ~ 0
+STEPPER_1_MS2
+Text Label 5450 4050 2    50   ~ 0
+STEPPER_2_MS0
+Text Label 5450 4150 2    50   ~ 0
+STEPPER_2_MS1
+Text Label 5450 4250 2    50   ~ 0
+STEPPER_2_MS2
+Text Label 3750 6300 2    50   ~ 0
+STEPPER_1_MS0
+Text Label 3750 6400 2    50   ~ 0
+STEPPER_1_MS1
+Text Label 3750 6500 2    50   ~ 0
+STEPPER_1_MS2
+Text Label 3750 7050 2    50   ~ 0
+STEPPER_2_MS0
+Text Label 3750 7150 2    50   ~ 0
+STEPPER_2_MS1
+Text Label 3750 7250 2    50   ~ 0
+STEPPER_2_MS2
+Text Label 5750 1600 0    50   ~ 0
+PRESSURE_RESET
+Text Label 5750 1700 0    50   ~ 0
+PRESSURE_EOC
+Text Label 3200 5850 0    50   ~ 0
+PRESSURE_RESET
+Text Label 3200 5950 0    50   ~ 0
+PRESSURE_EOC
+$Sheet
+S 7400 5000 550  200 
+U 5E96853E
+F0 "BUTTON_2" 50
+F1 "BUTTON.sch" 50
+F2 "OUT" O R 7950 5100 50 
+$EndSheet
+Text Label 7950 5100 0    50   ~ 0
+BUTTON_2
+$Sheet
+S 7400 5450 550  200 
+U 5E968934
+F0 "BUTTON_3" 50
+F1 "BUTTON.sch" 50
+F2 "OUT" O R 7950 5550 50 
+$EndSheet
+Text Label 7950 5550 0    50   ~ 0
+BUTTON_3
+$Sheet
+S 8450 5450 550  200 
+U 5E968D0C
+F0 "BUTTON_4" 50
+F1 "BUTTON.sch" 50
+F2 "OUT" O R 9000 5550 50 
+$EndSheet
+Text Label 9000 5550 0    50   ~ 0
+BUTTON_4
+Text Label 850  6450 0    50   ~ 0
+BUTTON_2
+Text Label 850  6550 0    50   ~ 0
+BUTTON_3
+Text Label 850  6650 0    50   ~ 0
+BUTTON_4
+Text Label 850  6350 0    50   ~ 0
+BUTTON_1
 $EndSCHEMATC
