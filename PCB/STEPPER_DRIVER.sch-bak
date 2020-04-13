@@ -1,0 +1,483 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 23
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 5E8A7820
+P 7250 4250
+AR Path="/5E8A6686/5E8A7820" Ref="J4"  Part="1" 
+AR Path="/5E8813FF/5E8A7820" Ref="J8"  Part="1" 
+F 0 "J4" H 7278 4226 50  0000 L CNN
+F 1 "STEPPER" H 7278 4135 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 7250 4250 50  0001 C CNN
+F 3 "" H 7250 4250 50  0001 C CNN
+	1    7250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J3
+U 1 1 5E8A82D9
+P 7250 3800
+AR Path="/5E8A6686/5E8A82D9" Ref="J3"  Part="1" 
+AR Path="/5E8813FF/5E8A82D9" Ref="J7"  Part="1" 
+F 0 "J3" H 7330 3792 50  0000 L CNN
+F 1 "STEPPER" H 7330 3701 50  0000 L CNN
+F 2 "Connectors:SCREWTERMINAL-3.5MM-4" H 7250 3800 50  0001 C CNN
+F 3 "" H 7250 3800 50  0001 C CNN
+	1    7250 3800
+	1    0    0    -1  
+$EndComp
+Text Label 6350 3900 0    50   ~ 0
+1B
+Text Label 6350 4000 0    50   ~ 0
+1A
+Text Label 6350 4100 0    50   ~ 0
+2A
+Text Label 6350 3800 0    50   ~ 0
+2B
+Text Label 7050 4150 2    50   ~ 0
+1B
+Text Label 7050 4250 2    50   ~ 0
+1A
+Text Label 7050 4350 2    50   ~ 0
+2A
+Text Label 7050 4450 2    50   ~ 0
+2B
+Text Label 7050 3700 2    50   ~ 0
+1B
+Text Label 7050 3800 2    50   ~ 0
+1A
+Text Label 7050 3900 2    50   ~ 0
+2A
+Text Label 7050 4000 2    50   ~ 0
+2B
+$Comp
+L power:GND #PWR038
+U 1 1 5E842853
+P 6400 4300
+AR Path="/5E8A6686/5E842853" Ref="#PWR038"  Part="1" 
+AR Path="/5E8813FF/5E842853" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR038" H 6400 4050 50  0001 C CNN
+F 1 "GND" V 6405 4172 50  0000 R CNN
+F 2 "" H 6400 4300 50  0001 C CNN
+F 3 "" H 6400 4300 50  0001 C CNN
+	1    6400 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 5E842AD6
+P 6400 3700
+AR Path="/5E8A6686/5E842AD6" Ref="#PWR037"  Part="1" 
+AR Path="/5E8813FF/5E842AD6" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR037" H 6400 3450 50  0001 C CNN
+F 1 "GND" V 6405 3572 50  0000 R CNN
+F 2 "" H 6400 3700 50  0001 C CNN
+F 3 "" H 6400 3700 50  0001 C CNN
+	1    6400 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 3700 6350 3700
+Wire Wire Line
+	6400 4300 6350 4300
+Text HLabel 5350 4200 0    50   Input ~ 0
+STEP
+Text HLabel 5350 4300 0    50   Input ~ 0
+DIR
+Text HLabel 5350 3600 0    50   Input ~ 0
+~ENABLE
+$Comp
+L Device:C_Small C9
+U 1 1 5E8548E0
+P 5950 2500
+AR Path="/5E8A6686/5E8548E0" Ref="C9"  Part="1" 
+AR Path="/5E8813FF/5E8548E0" Ref="C34"  Part="1" 
+F 0 "C9" H 6042 2546 50  0000 L CNN
+F 1 "100uF" H 6042 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 5950 2500 50  0001 C CNN
+F 3 "" H 5950 2500 50  0001 C CNN
+F 4 "16V" H 5950 2500 50  0001 C CNN "Voltage Rating"
+F 5 "Aluminium Film" H 5950 2500 50  0001 C CNN "Dielectric"
+F 6 "General Purpose" H 5950 2500 50  0001 C CNN "Impedance"
+F 7 "1000hr @ 85degC" H 5950 2500 50  0001 C CNN "Lifetime @ Temperature"
+F 8 "EEE-FT1C101AR" H 5950 2500 50  0001 C CNN "MPN"
+F 9 "Panasonic" H 5950 2500 50  0001 C CNN "Manufacturer"
+	1    5950 2500
+	1    0    0    -1  
+$EndComp
+Text Label 5950 2400 1    50   ~ 0
+V_MOTOR
+$Comp
+L power:GND #PWR035
+U 1 1 5E8548E7
+P 5950 2650
+AR Path="/5E8A6686/5E8548E7" Ref="#PWR035"  Part="1" 
+AR Path="/5E8813FF/5E8548E7" Ref="#PWR0100"  Part="1" 
+F 0 "#PWR035" H 5950 2400 50  0001 C CNN
+F 1 "GND" H 5955 2477 50  0000 C CNN
+F 2 "" H 5950 2650 50  0001 C CNN
+F 3 "" H 5950 2650 50  0001 C CNN
+	1    5950 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2650 5950 2600
+$Comp
+L Device:C_Small C8
+U 1 1 5E8572F7
+P 5600 2500
+AR Path="/5E8A6686/5E8572F7" Ref="C8"  Part="1" 
+AR Path="/5E8813FF/5E8572F7" Ref="C33"  Part="1" 
+F 0 "C8" H 5692 2546 50  0000 L CNN
+F 1 "10uF" H 5692 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5600 2500 50  0001 C CNN
+F 3 "" H 5600 2500 50  0001 C CNN
+F 4 "50V" H 5600 2500 50  0001 C CNN "Voltage Rating"
+F 5 "X7R" H 5600 2500 50  0001 C CNN "Dielectric"
+	1    5600 2500
+	1    0    0    -1  
+$EndComp
+Text Label 5600 2400 1    50   ~ 0
+V_MOTOR
+$Comp
+L power:GND #PWR034
+U 1 1 5E8572FE
+P 5600 2650
+AR Path="/5E8A6686/5E8572FE" Ref="#PWR034"  Part="1" 
+AR Path="/5E8813FF/5E8572FE" Ref="#PWR099"  Part="1" 
+F 0 "#PWR034" H 5600 2400 50  0001 C CNN
+F 1 "GND" H 5605 2477 50  0000 C CNN
+F 2 "" H 5600 2650 50  0001 C CNN
+F 3 "" H 5600 2650 50  0001 C CNN
+	1    5600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2650 5600 2600
+$Comp
+L Device:C_Small C7
+U 1 1 5E860421
+P 5250 2500
+AR Path="/5E8A6686/5E860421" Ref="C7"  Part="1" 
+AR Path="/5E8813FF/5E860421" Ref="C32"  Part="1" 
+F 0 "C7" H 5342 2546 50  0000 L CNN
+F 1 "10uF" H 5342 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5250 2500 50  0001 C CNN
+F 3 "" H 5250 2500 50  0001 C CNN
+F 4 "6.3V" H 5250 2500 50  0001 C CNN "Voltage Rating"
+F 5 "X7R" H 5250 2500 50  0001 C CNN "Dielectric"
+	1    5250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5E860428
+P 5250 2650
+AR Path="/5E8A6686/5E860428" Ref="#PWR033"  Part="1" 
+AR Path="/5E8813FF/5E860428" Ref="#PWR098"  Part="1" 
+F 0 "#PWR033" H 5250 2400 50  0001 C CNN
+F 1 "GND" H 5255 2477 50  0000 C CNN
+F 2 "" H 5250 2650 50  0001 C CNN
+F 3 "" H 5250 2650 50  0001 C CNN
+	1    5250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2650 5250 2600
+Wire Wire Line
+	5250 2350 5250 2400
+Text Label 9400 3750 0    50   ~ 0
+1B
+Text Label 9400 3550 0    50   ~ 0
+1A
+Text Label 9400 3650 0    50   ~ 0
+2A
+Text Label 9400 3850 0    50   ~ 0
+2B
+Text Label 8600 3550 2    50   ~ 0
+V_MOTOR
+Text Label 8600 3650 2    50   ~ 0
+~ENABLE
+Text Label 8600 3750 2    50   ~ 0
+STEP
+Text Label 8600 3850 2    50   ~ 0
+DIR
+$Sheet
+S 8600 3450 800  1050
+U 5E8D27A6
+F0 "Discrete Stepper Driver" 50
+F1 "DRV8825_DISCRETE_STEPPER_DRIVER.sch" 50
+F2 "1A" O R 9400 3550 50 
+F3 "2A" O R 9400 3650 50 
+F4 "1B" O R 9400 3750 50 
+F5 "2B" O R 9400 3850 50 
+F6 "STEP" I L 8600 3750 50 
+F7 "VMOT" I L 8600 3550 50 
+F8 "~ENABLE" I L 8600 3650 50 
+F9 "DIR" I L 8600 3850 50 
+F10 "MS0" I L 8600 4000 50 
+F11 "MS1" I L 8600 4100 50 
+F12 "MS2" I L 8600 4200 50 
+F13 "~SLEEP" I R 9400 4000 50 
+F14 "~RESET" I R 9400 4100 50 
+F15 "~FAULT" O R 9400 4200 50 
+F16 "~HOME" O R 9400 4300 50 
+F17 "DECAY" I R 9400 4400 50 
+$EndSheet
+$Comp
+L power:+5V #PWR032
+U 1 1 5E90606A
+P 5250 2350
+AR Path="/5E8A6686/5E90606A" Ref="#PWR032"  Part="1" 
+AR Path="/5E8813FF/5E90606A" Ref="#PWR097"  Part="1" 
+F 0 "#PWR032" H 5250 2200 50  0001 C CNN
+F 1 "+5V" H 5265 2523 50  0000 C CNN
+F 2 "" H 5250 2350 50  0001 C CNN
+F 3 "" H 5250 2350 50  0001 C CNN
+	1    5250 2350
+	1    0    0    -1  
+$EndComp
+Text Label 5350 3700 2    50   ~ 0
+MS0
+Text Label 5350 3800 2    50   ~ 0
+MS1
+Text Label 5350 3900 2    50   ~ 0
+MS2
+Text Label 4500 3000 0    50   ~ 0
+MS0
+Text Label 4500 4050 0    50   ~ 0
+MS1
+Text Label 4500 5100 0    50   ~ 0
+MS2
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 5E913339
+P 4350 3000
+AR Path="/5E8A6686/5E913339" Ref="JP1"  Part="1" 
+AR Path="/5E8813FF/5E913339" Ref="JP4"  Part="1" 
+F 0 "JP1" V 4396 3068 50  0000 L CNN
+F 1 "MS0" V 4305 3068 50  0000 L CNN
+F 2 "Jumpers:SMT-JUMPER_3_1-NC_PASTE_SILK" H 4350 3000 50  0001 C CNN
+F 3 "~" H 4350 3000 50  0001 C CNN
+	1    4350 3000
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+5V #PWR025
+U 1 1 5E9143CE
+P 4350 2750
+AR Path="/5E8A6686/5E9143CE" Ref="#PWR025"  Part="1" 
+AR Path="/5E8813FF/5E9143CE" Ref="#PWR090"  Part="1" 
+F 0 "#PWR025" H 4350 2600 50  0001 C CNN
+F 1 "+5V" H 4365 2923 50  0000 C CNN
+F 2 "" H 4350 2750 50  0001 C CNN
+F 3 "" H 4350 2750 50  0001 C CNN
+	1    4350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2750 4350 2800
+$Comp
+L power:GND #PWR026
+U 1 1 5E914CAC
+P 4350 3250
+AR Path="/5E8A6686/5E914CAC" Ref="#PWR026"  Part="1" 
+AR Path="/5E8813FF/5E914CAC" Ref="#PWR091"  Part="1" 
+F 0 "#PWR026" H 4350 3000 50  0001 C CNN
+F 1 "GND" V 4355 3122 50  0000 R CNN
+F 2 "" H 4350 3250 50  0001 C CNN
+F 3 "" H 4350 3250 50  0001 C CNN
+	1    4350 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3200 4350 3250
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 5E916887
+P 4350 4050
+AR Path="/5E8A6686/5E916887" Ref="JP2"  Part="1" 
+AR Path="/5E8813FF/5E916887" Ref="JP5"  Part="1" 
+F 0 "JP2" V 4396 4118 50  0000 L CNN
+F 1 "MS1" V 4305 4118 50  0000 L CNN
+F 2 "Jumpers:SMT-JUMPER_3_1-NC_PASTE_SILK" H 4350 4050 50  0001 C CNN
+F 3 "~" H 4350 4050 50  0001 C CNN
+	1    4350 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+5V #PWR027
+U 1 1 5E91688D
+P 4350 3800
+AR Path="/5E8A6686/5E91688D" Ref="#PWR027"  Part="1" 
+AR Path="/5E8813FF/5E91688D" Ref="#PWR092"  Part="1" 
+F 0 "#PWR027" H 4350 3650 50  0001 C CNN
+F 1 "+5V" H 4365 3973 50  0000 C CNN
+F 2 "" H 4350 3800 50  0001 C CNN
+F 3 "" H 4350 3800 50  0001 C CNN
+	1    4350 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3800 4350 3850
+$Comp
+L power:GND #PWR028
+U 1 1 5E916894
+P 4350 4300
+AR Path="/5E8A6686/5E916894" Ref="#PWR028"  Part="1" 
+AR Path="/5E8813FF/5E916894" Ref="#PWR093"  Part="1" 
+F 0 "#PWR028" H 4350 4050 50  0001 C CNN
+F 1 "GND" V 4355 4172 50  0000 R CNN
+F 2 "" H 4350 4300 50  0001 C CNN
+F 3 "" H 4350 4300 50  0001 C CNN
+	1    4350 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4250 4350 4300
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP3
+U 1 1 5E917232
+P 4350 5100
+AR Path="/5E8A6686/5E917232" Ref="JP3"  Part="1" 
+AR Path="/5E8813FF/5E917232" Ref="JP6"  Part="1" 
+F 0 "JP3" V 4396 5168 50  0000 L CNN
+F 1 "MS2" V 4305 5168 50  0000 L CNN
+F 2 "Jumpers:SMT-JUMPER_3_1-NC_PASTE_SILK" H 4350 5100 50  0001 C CNN
+F 3 "~" H 4350 5100 50  0001 C CNN
+	1    4350 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+5V #PWR029
+U 1 1 5E917238
+P 4350 4850
+AR Path="/5E8A6686/5E917238" Ref="#PWR029"  Part="1" 
+AR Path="/5E8813FF/5E917238" Ref="#PWR094"  Part="1" 
+F 0 "#PWR029" H 4350 4700 50  0001 C CNN
+F 1 "+5V" H 4365 5023 50  0000 C CNN
+F 2 "" H 4350 4850 50  0001 C CNN
+F 3 "" H 4350 4850 50  0001 C CNN
+	1    4350 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4850 4350 4900
+$Comp
+L power:GND #PWR030
+U 1 1 5E91723F
+P 4350 5350
+AR Path="/5E8A6686/5E91723F" Ref="#PWR030"  Part="1" 
+AR Path="/5E8813FF/5E91723F" Ref="#PWR095"  Part="1" 
+F 0 "#PWR030" H 4350 5100 50  0001 C CNN
+F 1 "GND" V 4355 5222 50  0000 R CNN
+F 2 "" H 4350 5350 50  0001 C CNN
+F 3 "" H 4350 5350 50  0001 C CNN
+	1    4350 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5300 4350 5350
+Text Label 5350 4000 2    50   ~ 0
+~RESET
+Text Label 5350 4100 2    50   ~ 0
+~SLEEP
+Text Label 9400 4100 0    50   ~ 0
+~RESET
+Text Label 9400 4000 0    50   ~ 0
+~SLEEP
+$Comp
+L power:+5V #PWR031
+U 1 1 5E952808
+P 4850 3850
+AR Path="/5E8A6686/5E952808" Ref="#PWR031"  Part="1" 
+AR Path="/5E8813FF/5E952808" Ref="#PWR096"  Part="1" 
+F 0 "#PWR031" H 4850 3700 50  0001 C CNN
+F 1 "+5V" H 4865 4023 50  0000 C CNN
+F 2 "" H 4850 3850 50  0001 C CNN
+F 3 "" H 4850 3850 50  0001 C CNN
+	1    4850 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3850 4850 4000
+Wire Wire Line
+	4850 4100 5350 4100
+Wire Wire Line
+	5350 4000 4850 4000
+Connection ~ 4850 4000
+Wire Wire Line
+	4850 4000 4850 4100
+$Comp
+L custom:DRV8825_BREAKOUT U3
+U 1 1 5E972E18
+P 5850 3950
+AR Path="/5E8A6686/5E972E18" Ref="U3"  Part="1" 
+AR Path="/5E8813FF/5E972E18" Ref="U10"  Part="1" 
+F 0 "U3" H 5500 4450 50  0000 C CNN
+F 1 "DRV8825_BREAKOUT" V 5850 3950 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 6000 3900 50  0001 C CNN
+F 3 "" H 6000 3900 50  0001 C CNN
+	1    5850 3950
+	1    0    0    -1  
+$EndComp
+Text Label 8600 4000 2    50   ~ 0
+MS0
+Text Label 8600 4100 2    50   ~ 0
+MS1
+Text Label 8600 4200 2    50   ~ 0
+MS2
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E998E64
+P 9100 4950
+AR Path="/5E998E64" Ref="TP?"  Part="1" 
+AR Path="/5E8A6686/5E998E64" Ref="TP9"  Part="1" 
+AR Path="/5E8813FF/5E998E64" Ref="TP27"  Part="1" 
+F 0 "TP9" V 9307 5022 50  0000 C CNN
+F 1 "~HOME" V 9209 5022 50  0000 C CNN
+F 2 "custom:TestPoint_Pad_D1.5mm" H 9300 4950 50  0001 C CNN
+F 3 "~" H 9300 4950 50  0001 C CNN
+	1    9100 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E99966E
+P 9100 5250
+AR Path="/5E99966E" Ref="TP?"  Part="1" 
+AR Path="/5E8A6686/5E99966E" Ref="TP10"  Part="1" 
+AR Path="/5E8813FF/5E99966E" Ref="TP28"  Part="1" 
+F 0 "TP10" V 9295 5322 50  0000 C CNN
+F 1 "DECAY" V 9204 5322 50  0000 C CNN
+F 2 "custom:TestPoint_Pad_D1.5mm" H 9300 5250 50  0001 C CNN
+F 3 "~" H 9300 5250 50  0001 C CNN
+	1    9100 5250
+	0    -1   -1   0   
+$EndComp
+Text Label 9400 4200 0    50   ~ 0
+~FAULT
+Text Label 9400 4300 0    50   ~ 0
+~HOME
+Text Label 9400 4400 0    50   ~ 0
+DECAY
+Text Label 9100 5250 0    50   ~ 0
+DECAY
+Text Label 9100 4950 0    50   ~ 0
+~HOME
+Text Label 6350 4200 0    50   ~ 0
+~FAULT
+$EndSCHEMATC

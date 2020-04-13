@@ -1,0 +1,153 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 17 23
+Title "ResQVenT"
+Date ""
+Rev "v1.0.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 7000 3900 2    50   Output ~ 0
+OUTPUT
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 5E8A8DC4
+P 6150 4150
+F 0 "SW2" V 6104 4248 50  0000 L CNN
+F 1 "ENDSTOP" V 6195 4248 50  0000 L CNN
+F 2 "" H 6150 4150 50  0001 C CNN
+F 3 "" H 6150 4150 50  0001 C CNN
+	1    6150 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C43
+U 1 1 5E8A9073
+P 5900 4150
+F 0 "C43" H 5809 4196 50  0000 R CNN
+F 1 "100nF" H 5809 4105 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5900 4150 50  0001 C CNN
+F 3 "" H 5900 4150 50  0001 C CNN
+F 4 "X7R" H 5900 4150 50  0001 C CNN "Dielectric"
+F 5 "6.3V" H 5900 4150 50  0001 C CNN "Voltage Rating"
+	1    5900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R30
+U 1 1 5E8A974E
+P 6150 3750
+F 0 "R30" H 6209 3796 50  0000 L CNN
+F 1 "10k" H 6209 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6150 3750 50  0001 C CNN
+F 3 "" H 6150 3750 50  0001 C CNN
+	1    6150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3850 6150 3900
+Wire Wire Line
+	6150 3900 5900 3900
+Wire Wire Line
+	5900 3900 5900 4050
+Connection ~ 6150 3900
+Wire Wire Line
+	6150 3900 6150 3950
+$Comp
+L power:GND #PWR0122
+U 1 1 5E8A9B1B
+P 5900 4400
+F 0 "#PWR0122" H 5900 4150 50  0001 C CNN
+F 1 "GND" H 5905 4227 50  0000 C CNN
+F 2 "" H 5900 4400 50  0001 C CNN
+F 3 "" H 5900 4400 50  0001 C CNN
+	1    5900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5E8A9B96
+P 6150 4400
+F 0 "#PWR0124" H 6150 4150 50  0001 C CNN
+F 1 "GND" H 6155 4227 50  0000 C CNN
+F 2 "" H 6150 4400 50  0001 C CNN
+F 3 "" H 6150 4400 50  0001 C CNN
+	1    6150 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4400 6150 4350
+Wire Wire Line
+	5900 4400 5900 4250
+Wire Wire Line
+	6150 3600 6150 3650
+Wire Wire Line
+	7000 3900 6650 3900
+$Comp
+L Connector:Conn_01x02_Female J9
+U 1 1 5E8ACECE
+P 6900 4100
+F 0 "J9" H 6928 4076 50  0000 L CNN
+F 1 "ENDSTOP_CONN" H 6928 3985 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6900 4100 50  0001 C CNN
+F 3 "" H 6900 4100 50  0001 C CNN
+	1    6900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4100 6650 4100
+Wire Wire Line
+	6650 4100 6650 3900
+Connection ~ 6650 3900
+Wire Wire Line
+	6650 3900 6150 3900
+$Comp
+L power:GND #PWR0125
+U 1 1 5E8AD764
+P 6650 4400
+F 0 "#PWR0125" H 6650 4150 50  0001 C CNN
+F 1 "GND" H 6655 4227 50  0000 C CNN
+F 2 "" H 6650 4400 50  0001 C CNN
+F 3 "" H 6650 4400 50  0001 C CNN
+	1    6650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4400 6650 4200
+Wire Wire Line
+	6650 4200 6700 4200
+$Comp
+L power:+5V #PWR?
+U 1 1 5E90B50E
+P 6150 3600
+AR Path="/5E8A6686/5E90B50E" Ref="#PWR?"  Part="1" 
+AR Path="/5E89F314/5E90B50E" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 6150 3450 50  0001 C CNN
+F 1 "+5V" H 6165 3773 50  0000 C CNN
+F 2 "" H 6150 3600 50  0001 C CNN
+F 3 "" H 6150 3600 50  0001 C CNN
+	1    6150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E9CF62E
+P 6650 3850
+AR Path="/5E9CF62E" Ref="TP?"  Part="1" 
+AR Path="/5E89F314/5E9CF62E" Ref="TP33"  Part="1" 
+F 0 "TP33" H 6708 3968 50  0000 L CNN
+F 1 "OUT" H 6708 3877 50  0000 L CNN
+F 2 "custom:TestPoint_Pad_D1.5mm" H 6850 3850 50  0001 C CNN
+F 3 "~" H 6850 3850 50  0001 C CNN
+	1    6650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3850 6650 3900
+$EndSCHEMATC
