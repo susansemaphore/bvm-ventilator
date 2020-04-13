@@ -355,45 +355,6 @@ Text Label 10600 2100 2    50   ~ 0
 SDA
 Text Label 10600 2300 2    50   ~ 0
 SCL
-Text Label 9750 2300 2    50   ~ 0
-STEPPER_STEP
-Text Label 9750 2500 2    50   ~ 0
-STEPPER_DIR
-Text Label 9750 2100 2    50   ~ 0
-~STEPPER_ENABLE
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5E9B874A
-P 9750 2100
-F 0 "TP1" V 9698 2288 50  0000 L CNN
-F 1 "~STEP_ENABLE" V 9796 2288 50  0000 L CNN
-F 2 "custom:TestPoint_Pad_D1.5mm" H 9950 2100 50  0001 C CNN
-F 3 "~" H 9950 2100 50  0001 C CNN
-	1    9750 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5E9B88D9
-P 9750 2300
-F 0 "TP2" V 9704 2488 50  0000 L CNN
-F 1 "STEP" V 9795 2488 50  0000 L CNN
-F 2 "custom:TestPoint_Pad_D1.5mm" H 9950 2300 50  0001 C CNN
-F 3 "~" H 9950 2300 50  0001 C CNN
-	1    9750 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5E9B8AC5
-P 9750 2500
-F 0 "TP3" V 9704 2688 50  0000 L CNN
-F 1 "STEP_DIR" V 9795 2688 50  0000 L CNN
-F 2 "custom:TestPoint_Pad_D1.5mm" H 9950 2500 50  0001 C CNN
-F 3 "~" H 9950 2500 50  0001 C CNN
-	1    9750 2500
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5E9BDEC3

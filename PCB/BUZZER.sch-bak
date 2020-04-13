@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 27
+Sheet 4 27
 Title "ResQVenT"
 Date ""
 Rev "v1.0.0"
@@ -21,7 +21,7 @@ F 0 "BZ1" H 5752 4029 50  0000 L CNN
 F 1 "Buzzer" H 5752 3938 50  0000 L CNN
 F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 5575 4100 50  0001 C CNN
 F 3 "" V 5575 4100 50  0001 C CNN
-F 4 "5V" H 5600 4000 50  0001 C CNN "Voltage Rating"
+F 4 "12V" H 5600 4000 50  0001 C CNN "Voltage Rating"
 	1    5600 4000
 	1    0    0    -1  
 $EndComp
