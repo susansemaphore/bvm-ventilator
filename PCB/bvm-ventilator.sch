@@ -636,22 +636,30 @@ Text Label 9800 5500 0    50   ~ 0
 DISPLAY_DB6
 Text Label 9800 5600 0    50   ~ 0
 DISPLAY_DB7
-Text Label 2550 6800 2    50   ~ 0
+Text Label 2600 3050 0    50   ~ 0
 DISPLAY_DB0
-Text Label 2550 6900 2    50   ~ 0
+Text Label 2600 3150 0    50   ~ 0
 DISPLAY_DB1
-Text Label 2550 7000 2    50   ~ 0
-DISPLAY_DB2
-Text Label 2550 7100 2    50   ~ 0
+Text Label 2600 3350 0    50   ~ 0
 DISPLAY_DB3
-Text Label 2550 7200 2    50   ~ 0
+Text Label 2600 3450 0    50   ~ 0
 DISPLAY_DB4
-Text Label 2550 7300 2    50   ~ 0
+Text Label 2600 3550 0    50   ~ 0
 DISPLAY_DB5
-Text Label 2550 7400 2    50   ~ 0
+Text Label 2600 3650 0    50   ~ 0
 DISPLAY_DB6
-Text Label 2550 7500 2    50   ~ 0
+Text Label 2600 3750 0    50   ~ 0
 DISPLAY_DB7
 Wire Notes Line
 	10350 5850 10350 3350
+Text Label 2600 3250 0    50   ~ 0
+DISPLAY_DB2
+Wire Notes Line
+	3050 2950 3100 2950
+Wire Notes Line
+	3100 2950 3100 3750
+Wire Notes Line
+	3100 3750 3050 3750
+Text Notes 3200 3650 1    50   ~ 0
+DO NOT MOVE!
 $EndSCHEMATC
