@@ -40,17 +40,6 @@ DB1
 Text HLabel 2550 4200 0    50   BiDi ~ 0
 DB0
 $Comp
-L custom:DT024CTFT(-TS) U17
-U 1 1 5E9C83A4
-P 6300 3800
-F 0 "U17" H 5900 4950 50  0000 C CNN
-F 1 "DT024CTFT(-TS)" V 6300 3800 50  0000 C CNN
-F 2 "" H 6200 3950 50  0001 C CNN
-F 3 "https://cdn.displaytech-us.com/sites/default/files/display-data-sheet/DT024CTFT-v10_0.pdf" H 6200 3950 50  0001 C CNN
-	1    6300 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L dk_Transistors-Bipolar-BJT-Single:MMBT4401-7-F Q5
 U 1 1 5E9CE460
 P 7900 4700
@@ -754,10 +743,10 @@ NoConn ~ 3550 2600
 NoConn ~ 3550 2700
 NoConn ~ 3550 2800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0191
 U 1 1 5EAFC8BD
 P 2500 2600
-F 0 "#PWR?" H 2500 2350 50  0001 C CNN
+F 0 "#PWR0191" H 2500 2350 50  0001 C CNN
 F 1 "GND" V 2505 2472 50  0000 R CNN
 F 2 "" H 2500 2600 50  0001 C CNN
 F 3 "" H 2500 2600 50  0001 C CNN
@@ -765,10 +754,10 @@ F 3 "" H 2500 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0192
 U 1 1 5EAFCB8D
 P 2500 2700
-F 0 "#PWR?" H 2500 2450 50  0001 C CNN
+F 0 "#PWR0192" H 2500 2450 50  0001 C CNN
 F 1 "GND" V 2505 2572 50  0000 R CNN
 F 2 "" H 2500 2700 50  0001 C CNN
 F 3 "" H 2500 2700 50  0001 C CNN
@@ -776,10 +765,10 @@ F 3 "" H 2500 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0193
 U 1 1 5EAFCCE4
 P 2500 2800
-F 0 "#PWR?" H 2500 2550 50  0001 C CNN
+F 0 "#PWR0193" H 2500 2550 50  0001 C CNN
 F 1 "GND" V 2505 2672 50  0000 R CNN
 F 2 "" H 2500 2800 50  0001 C CNN
 F 3 "" H 2500 2800 50  0001 C CNN
@@ -792,4 +781,41 @@ Wire Wire Line
 	2500 2700 2550 2700
 Wire Wire Line
 	2500 2600 2550 2600
+$Comp
+L custom:DT024CTFT(-TS) U17
+U 1 1 5E95B360
+P 6300 3800
+F 0 "U17" H 5950 4950 50  0000 C CNN
+F 1 "62684-45110E9ALF" V 6300 3800 50  0000 C CNN
+F 2 "custom:62684-45110E9ALF" H 6200 3950 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/62684.pdf?__cf_chl_jschl_tk__=803acbf1fe55cff0ce3c0997063ab13baf380f8e-1586799606-0-AWj8eUdRD6VeqKIGOzk8_7ESWh-l-Nfv72sYbynJqjU-dUbsmngP34dquq2aBN_2_g14FJmOfnMJLLjyATnc-xvODXDum6C81rxij_OuVs93oeXHSY4u152qJd17kfaml1TAd7PfKT-9VsSBUM6y7EgcLufJOL2ihQ5GNpEeVhldnUN6WOCwqJv1c8deuqFqfu2dVhn1Q6fQGgyqCqlHsQH_xsQDoHi2sZFqqZBKQiceqeLE0FPl0fWnJVsE9ZYdTpUyth72B1TCrFFS1O4VaX2xwd-gpPLy0qbyRll2OjvcdP_02UcTTu_coU3l3kzPoDAVWb_BdgZp6LcaPbu9BGJHEVVpIKZrvc8vczxr6TAHuj3eoSFi5lPhJ2GDnriFIg" H 6200 3950 50  0001 C CNN
+	1    6300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0194
+U 1 1 5E95DA17
+P 6900 4950
+F 0 "#PWR0194" H 6900 4700 50  0001 C CNN
+F 1 "GND" V 6905 4822 50  0000 R CNN
+F 2 "" H 6900 4950 50  0001 C CNN
+F 3 "" H 6900 4950 50  0001 C CNN
+	1    6900 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 4950 6850 4950
+$Comp
+L custom:VIRTUAL_DISPLAY U21
+U 1 1 5E968691
+P 9650 1200
+F 0 "U21" H 9350 1650 50  0000 L CNN
+F 1 "DT024CTFT(-TS)" V 9650 900 50  0000 L CNN
+F 2 "" H 9650 1200 50  0001 C CNN
+F 3 "https://cdn.displaytech-us.com/sites/default/files/display-data-sheet/DT024CTFT-v10_0.pdf" H 9650 1200 50  0001 C CNN
+	1    9650 1200
+	1    0    0    -1  
+$EndComp
+Text Notes 8100 2000 0    50   ~ 0
+This symbol represents the display module, in order to include it in the BOM
 $EndSCHEMATC
