@@ -170,17 +170,6 @@ DISPLAY_VCC
 Text Label 6850 4050 0    50   ~ 0
 DISPLAY_VCC
 $Comp
-L 74xx:74HC245 U19
-U 1 1 5E9F8F76
-P 3050 4700
-F 0 "U19" H 2800 5350 50  0000 C CNN
-F 1 "74HC245" H 3300 4050 50  0000 C CNN
-F 2 "" H 3050 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC245" H 3050 4700 50  0001 C CNN
-	1    3050 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0158
 U 1 1 5E9FC70C
 P 3050 3450
@@ -211,9 +200,9 @@ L 74xx:74HC245 U18
 U 1 1 5E9F7E5A
 P 3050 2600
 F 0 "U18" H 2800 3250 50  0000 C CNN
-F 1 "74HC245" H 3300 1950 50  0000 C CNN
+F 1 "74LVC245" H 3300 1950 50  0000 C CNN
 F 2 "" H 3050 2600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC245" H 3050 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc245a.pdf" H 3050 2600 50  0001 C CNN
 	1    3050 2600
 	1    0    0    -1  
 $EndComp
@@ -315,10 +304,6 @@ Text Label 3050 1800 0    50   ~ 0
 DISPLAY_VCC
 Text Label 2550 3000 2    50   ~ 0
 DISPLAY_VCC
-NoConn ~ 6850 4550
-NoConn ~ 6850 4650
-NoConn ~ 6850 4750
-NoConn ~ 6850 4850
 $Comp
 L power:GND #PWR0165
 U 1 1 5EA4E841
@@ -694,4 +679,81 @@ F 3 "~" H 6500 2150 50  0001 C CNN
 $EndComp
 Text HLabel 5800 1500 0    50   Input ~ 0
 Vin
+$Comp
+L 74xx:74HC245 U19
+U 1 1 5E9F8F76
+P 3050 4700
+F 0 "U19" H 2800 5350 50  0000 C CNN
+F 1 "74LVC245" H 3300 4050 50  0000 C CNN
+F 2 "" H 3050 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc245a.pdf" H 3050 4700 50  0001 C CNN
+	1    3050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5EADCDE5
+P 6700 5600
+F 0 "TP7" V 6654 5788 50  0000 L CNN
+F 1 "XR" V 6745 5788 50  0000 L CNN
+F 2 "" H 6900 5600 50  0001 C CNN
+F 3 "~" H 6900 5600 50  0001 C CNN
+	1    6700 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5EADD33B
+P 6700 5400
+F 0 "TP6" V 6654 5588 50  0000 L CNN
+F 1 "XL" V 6745 5588 50  0000 L CNN
+F 2 "" H 6900 5400 50  0001 C CNN
+F 3 "~" H 6900 5400 50  0001 C CNN
+	1    6700 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5EADD59A
+P 6700 5800
+F 0 "TP8" V 6654 5988 50  0000 L CNN
+F 1 "YU" V 6745 5988 50  0000 L CNN
+F 2 "" H 6900 5800 50  0001 C CNN
+F 3 "~" H 6900 5800 50  0001 C CNN
+	1    6700 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP24
+U 1 1 5EADD7EA
+P 6700 6000
+F 0 "TP24" V 6654 6188 50  0000 L CNN
+F 1 "YD" V 6745 6188 50  0000 L CNN
+F 2 "" H 6900 6000 50  0001 C CNN
+F 3 "~" H 6900 6000 50  0001 C CNN
+	1    6700 6000
+	0    1    1    0   
+$EndComp
+Text Label 6850 4550 0    50   ~ 0
+XR
+Text Label 6850 4650 0    50   ~ 0
+YD
+Text Label 6850 4750 0    50   ~ 0
+XL
+Text Label 6850 4850 0    50   ~ 0
+YU
+Text Label 6700 5600 2    50   ~ 0
+XR
+Text Label 6700 6000 2    50   ~ 0
+YD
+Text Label 6700 5400 2    50   ~ 0
+XL
+Text Label 6700 5800 2    50   ~ 0
+YU
+NoConn ~ 2550 2600
+NoConn ~ 2550 2700
+NoConn ~ 2550 2800
+NoConn ~ 3550 2600
+NoConn ~ 3550 2700
+NoConn ~ 3550 2800
 $EndSCHEMATC
