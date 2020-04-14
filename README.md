@@ -1,5 +1,8 @@
-# BVM Ventilator
-Open-source Bag Valve Mask (BVM) based ventilator. Designed to be simple, low cost and robust. The project aims to assist hospitals, by supplementing their existing ventilator fleet in times of high demand such as the COVID-19 outbreak.
+# ResQ̇V̇enT Ventilator
+An open-source Bag Valve Mask (BVM) based ventilator. Designed to be simple, low cost and robust. The project aims to assist hospitals, by supplementing their existing ventilator fleet in times of high demand such as the COVID-19 outbreak.
+
+## System Diagram
+![ResQ̇V̇enT System Diagram](/ResQVent_system_diagram.png)
 
 ## Requirements
 ### Primary Technical Requirements
