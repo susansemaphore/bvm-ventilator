@@ -21,6 +21,7 @@ F 0 "U16" H 5620 3896 50  0000 R CNN
 F 1 "MPXV7002" H 5620 3805 50  0000 R CNN
 F 2 "custom:MPXV7002" H 5550 3500 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/MPXV7002.pdf" H 6050 4450 50  0001 C CNN
+F 4 "MPXV7002DP" H 6050 3850 50  0001 C CNN "MPN"
 	1    6050 3850
 	1    0    0    -1  
 $EndComp
