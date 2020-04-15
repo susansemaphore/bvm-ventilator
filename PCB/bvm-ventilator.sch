@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 28
+Sheet 1 29
 Title "ResQVenT"
 Date ""
 Rev "v1.0.0"
@@ -695,4 +695,10 @@ F 3 "" H 9050 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9050 5500 9100 5500
+$Sheet
+S 4850 5950 1300 1000
+U 5E96F1BF
+F0 "Oxygen Sensor" 50
+F1 "OXYGEN_SENSOR.sch" 50
+$EndSheet
 $EndSCHEMATC

@@ -811,7 +811,7 @@ U 1 1 5E968691
 P 9650 1200
 F 0 "U21" H 9350 1650 50  0000 L CNN
 F 1 "DT024CTFT(-TS)" V 9650 900 50  0000 L CNN
-F 2 "" H 9650 1200 50  0001 C CNN
+F 2 "custom:DT024CTFT-(TS)" H 9650 1200 50  0001 C CNN
 F 3 "https://cdn.displaytech-us.com/sites/default/files/display-data-sheet/DT024CTFT-v10_0.pdf" H 9650 1200 50  0001 C CNN
 	1    9650 1200
 	1    0    0    -1  
