@@ -81,6 +81,8 @@ F 3 "" H 6100 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6100 4350 6100 4400
-Text HLabel 5550 4150 0    50   Input ~ 0
+Text HLabel 5500 4150 0    50   Input ~ 0
 CTRL
+Wire Wire Line
+	5500 4150 5550 4150
 $EndSCHEMATC

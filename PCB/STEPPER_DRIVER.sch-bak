@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 29
+Sheet 2 29
 Title "ResQVenT"
 Date ""
 Rev "v1.0.0"
@@ -345,4 +345,6 @@ Text HLabel 5350 3900 0    50   Input ~ 0
 MS2
 Text HLabel 6350 4200 2    50   Output ~ 0
 ~FAULT
+Text HLabel 6350 3600 2    50   Input ~ 0
+V_MOTOR
 $EndSCHEMATC

@@ -129,7 +129,7 @@ Text Label 6250 5150 0    50   ~ 0
 LIMIT_SWITCH
 Text Label 6250 4350 0    50   ~ 0
 ~STEPPER_2_ENABLE
-Text Label 1500 5400 2    50   ~ 0
+Text Label 1750 1250 2    50   ~ 0
 VBATT_SENSE
 $Sheet
 S 7350 3500 550  400 
@@ -244,7 +244,7 @@ F2 "OUTPUT" O R 5750 2400 50
 $EndSheet
 Text Label 5750 2400 0    50   ~ 0
 DIFF_PRESSURE_SENSE
-Text Label 1500 5500 2    50   ~ 0
+Text Label 1750 1350 2    50   ~ 0
 DIFF_PRESSURE_SENSE
 Text Label 5750 1050 0    50   ~ 0
 SDA
@@ -474,7 +474,7 @@ Wire Notes Line
 	3650 5100 850  5100
 Text Label 7350 2200 2    50   ~ 0
 ~RTC_INT
-Text Label 1100 6100 2    50   ~ 0
+Text Label 2600 1650 0    50   ~ 0
 ~RTC_INT
 Text Label 5400 3750 2    50   ~ 0
 STEPPER_1_MS0
@@ -519,77 +519,73 @@ F2 "OUT" O R 7900 5600 50
 $EndSheet
 Text Label 7900 5600 0    50   ~ 0
 BUTTON_4
-Text Label 850  6450 0    50   ~ 0
+Text Label 2600 2150 0    50   ~ 0
 BUTTON_2
-Text Label 850  6550 0    50   ~ 0
+Text Label 2600 2250 0    50   ~ 0
 BUTTON_3
-Text Label 850  6650 0    50   ~ 0
+Text Label 2600 2350 0    50   ~ 0
 BUTTON_4
-Text Label 850  6350 0    50   ~ 0
+Text Label 2600 2050 0    50   ~ 0
 BUTTON_1
-Text Label 2550 6400 2    50   ~ 0
+Text Label 2600 3950 0    50   ~ 0
 DISPLAY_DC
-Text Label 2550 6500 2    50   ~ 0
+Text Label 2600 4050 0    50   ~ 0
 DISPLAY_CS
 Text Label 6250 3950 0    50   ~ 0
 ~STEPPER_1_FAULT
 Text Label 6250 4700 0    50   ~ 0
 ~STEPPER_2_FAULT
-Text Label 1500 5650 2    50   ~ 0
+Text Label 2600 1550 0    50   ~ 0
 BUZZ_ENABLE
-Text Label 1500 5750 2    50   ~ 0
-BUTTON_1
-Text Label 1750 5500 0    50   ~ 0
+Text Label 2600 2950 0    50   ~ 0
 LINEAR_ENCODER_B
-Text Label 1750 5400 0    50   ~ 0
+Text Label 2600 2850 0    50   ~ 0
 LINEAR_ENCODER_A
-Text Label 1750 5800 0    50   ~ 0
+Text Label 2600 2450 0    50   ~ 0
 ROTARY_ENCODER_BUTTON
-Text Label 1750 5700 0    50   ~ 0
+Text Label 2600 1350 0    50   ~ 0
 ROTARY_ENCODER_B
-Text Label 1750 5600 0    50   ~ 0
+Text Label 2600 1250 0    50   ~ 0
 ROTARY_ENCODER_A
-Text Label 1750 5900 0    50   ~ 0
+Text Label 2600 2550 0    50   ~ 0
 LIMIT_SWITCH
-Text Label 3100 5700 0    50   ~ 0
+Text Label 1750 2350 2    50   ~ 0
 PRESSURE_EOC
-Text Label 3100 5600 0    50   ~ 0
+Text Label 2600 1450 0    50   ~ 0
 PRESSURE_RESET
-Text Label 3750 6600 2    50   ~ 0
+Text Label 1750 2050 2    50   ~ 0
 ~STEPPER_1_FAULT
-Text Label 3750 6500 2    50   ~ 0
+Text Label 1750 3350 2    50   ~ 0
 STEPPER_1_MS2
-Text Label 3750 6400 2    50   ~ 0
+Text Label 1750 3250 2    50   ~ 0
 STEPPER_1_MS1
-Text Label 3750 6300 2    50   ~ 0
+Text Label 1750 3150 2    50   ~ 0
 STEPPER_1_MS0
-Text Label 3750 6200 2    50   ~ 0
-~STEPPER_1_ENABLE
-Text Label 3750 6000 2    50   ~ 0
+Text Label 1750 2950 2    50   ~ 0
 STEPPER_1_DIR
-Text Label 3750 6100 2    50   ~ 0
+Text Label 2600 1850 0    50   ~ 0
 STEPPER_1_STEP
-Text Label 3750 7050 2    50   ~ 0
+Text Label 2600 1950 0    50   ~ 0
 STEPPER_2_STEP
-Text Label 3750 6950 2    50   ~ 0
+Text Label 1750 3450 2    50   ~ 0
 STEPPER_2_DIR
-Text Label 3750 7550 2    50   ~ 0
+Text Label 1750 2150 2    50   ~ 0
 ~STEPPER_2_FAULT
-Text Label 3750 7450 2    50   ~ 0
+Text Label 1750 3850 2    50   ~ 0
 STEPPER_2_MS2
-Text Label 3750 7350 2    50   ~ 0
+Text Label 1750 3750 2    50   ~ 0
 STEPPER_2_MS1
-Text Label 3750 7250 2    50   ~ 0
+Text Label 1750 3650 2    50   ~ 0
 STEPPER_2_MS0
-Text Label 3750 7150 2    50   ~ 0
+Text Label 1750 3550 2    50   ~ 0
 ~STEPPER_2_ENABLE
 Text Label 9100 4250 2    50   ~ 0
 DISPLAY_RESET
-Text Label 2550 6300 2    50   ~ 0
+Text Label 2600 3850 0    50   ~ 0
 DISPLAY_RESET
-Text Label 2550 6600 2    50   ~ 0
+Text Label 2600 4150 0    50   ~ 0
 DISPLAY_READ
-Text Label 2550 6700 2    50   ~ 0
+Text Label 2600 4250 0    50   ~ 0
 DISPLAY_WRITE
 Text Label 9100 5000 2    50   ~ 0
 DISPLAY_DC
@@ -667,7 +663,7 @@ F17 "Vin" I L 9100 5500 50
 $EndSheet
 Text Label 9100 5400 2    50   ~ 0
 DISPLAY_BL_EN
-Text Label 2550 6800 2    50   ~ 0
+Text Label 2600 4350 0    50   ~ 0
 DISPLAY_BL_EN
 $Comp
 L power:+12V #PWR0182
@@ -699,9 +695,9 @@ Text Label 5800 2850 0    50   ~ 0
 ~OXYGEN_CONNECTED
 Text Label 5800 2950 0    50   ~ 0
 OXYGEN_SENSE
-Text Label 1950 7150 0    50   ~ 0
+Text Label 1750 2250 2    50   ~ 0
 ~OXYGEN_CONNECTED
-Text Label 1950 7250 0    50   ~ 0
+Text Label 1750 1450 2    50   ~ 0
 OXYGEN_SENSE
 $Sheet
 S 5200 2750 600  300 
@@ -711,4 +707,56 @@ F1 "OXYGEN_SENSOR.sch" 50
 F2 "~CONNECTED" O R 5800 2850 50 
 F3 "OUTPUT" O R 5800 2950 50 
 $EndSheet
+Text Label 2600 2650 0    50   ~ 0
+U2_TX
+Text Label 2600 2750 0    50   ~ 0
+U2_RX
+Text Label 9950 2200 2    50   ~ 0
+U2_TX
+Text Label 9950 2100 2    50   ~ 0
+U2_RX
+Text Label 1750 3050 2    50   ~ 0
+~STEPPER_1_ENABLE
+Text Label 2600 1750 0    50   ~ 0
+FAN_CONTROL
+NoConn ~ 1750 1550
+NoConn ~ 1750 1650
+NoConn ~ 1750 1750
+NoConn ~ 1750 1850
+NoConn ~ 1750 1950
+NoConn ~ 1750 2450
+NoConn ~ 1750 2550
+NoConn ~ 1750 2650
+NoConn ~ 1750 2750
+NoConn ~ 2600 4450
+NoConn ~ 2600 4550
+NoConn ~ 2600 4650
+NoConn ~ 2600 4750
+NoConn ~ 2600 4850
+$Comp
+L Connector:Conn_01x03_Female J16
+U 1 1 5EA0545D
+P 10150 2200
+F 0 "J16" H 10178 2226 50  0000 L CNN
+F 1 "UART2" H 10178 2135 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10150 2200 50  0001 C CNN
+F 3 "~" H 10150 2200 50  0001 C CNN
+	1    10150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0204
+U 1 1 5EA06513
+P 9900 2350
+F 0 "#PWR0204" H 9900 2100 50  0001 C CNN
+F 1 "GND" H 9905 2177 50  0000 C CNN
+F 2 "" H 9900 2350 50  0001 C CNN
+F 3 "" H 9900 2350 50  0001 C CNN
+	1    9900 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2350 9900 2300
+Wire Wire Line
+	9900 2300 9950 2300
 $EndSCHEMATC
