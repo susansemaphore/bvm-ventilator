@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 29
+Sheet 16 29
 Title "ResQVenT"
 Date ""
 Rev "v1.0.0"
@@ -21,7 +21,7 @@ U 1 1 5E8A8DC4
 P 6150 4150
 F 0 "SW2" V 6104 4248 50  0000 L CNN
 F 1 "ENDSTOP" V 6195 4248 50  0000 L CNN
-F 2 "" H 6150 4150 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6150 4150 50  0001 C CNN
 F 3 "" H 6150 4150 50  0001 C CNN
 	1    6150 4150
 	0    1    1    0   
