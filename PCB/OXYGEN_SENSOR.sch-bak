@@ -19,7 +19,7 @@ U 1 1 5E96F3A2
 P 4700 3700
 F 0 "J15" H 4757 4167 50  0000 C CNN
 F 1 "OXYGEN_CONN" H 4757 4076 50  0000 C CNN
-F 2 "" V 4700 3750 50  0001 C CNN
+F 2 "custom:A-2014-3-4-N-T-R" V 4700 3750 50  0001 C CNN
 F 3 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_7331_CO.pdf" V 4700 3750 50  0001 C CNN
 F 4 "A-2014-3-4-N-T-R" H 4700 3700 50  0001 C CNN "MPN"
 F 5 "Assmann WSW Components" H 4700 3700 50  0001 C CNN "Manufacturer"
@@ -245,4 +245,15 @@ Wire Wire Line
 Connection ~ 5500 3700
 Wire Wire Line
 	5500 3700 6350 3700
+$Comp
+L custom:VIRTUAL_PART V?
+U 1 1 5E9C195B
+P 2500 3650
+F 0 "V?" H 1900 4150 50  0000 L CNN
+F 1 "MAX-250A" H 2250 3650 50  0000 L CNN
+F 2 "" H 2500 3650 50  0001 C CNN
+F 3 "https://cdn.maxtec.com/product-docs/max-250a-250m-250l-specifications.pdf" H 2500 3650 50  0001 C CNN
+	1    2500 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
